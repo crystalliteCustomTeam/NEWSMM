@@ -62,7 +62,7 @@ const Navigation = () => {
       title: "Search Engine Optimization",
       svg: "seo",
       desc: "Boost your visibility with data-driven SEO strategies tailored to drive traffic and increase conversions.",
-      link: "/youtube-monetization-services",
+      link: "/search-engine-optimization-services",
     },
     {
       title: "Social Media Advertising",
@@ -638,7 +638,7 @@ const Navigation = () => {
           ["Home", "/"],
           ["Services"],
           ["Influencer Marketing", "/influencer-marketing-services"],
-          ["YouTube monetization", "/youtube-monetization-services"],
+          ["YouTube Monetization", "/youtube-monetization-services"],
           ["About", "/about-us"],
           ["Contact Us", "/contact-us"],
         ].map(([text, link], i) => {

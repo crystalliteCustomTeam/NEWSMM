@@ -45,7 +45,7 @@ const servicesMenu = [
     title: "Search Engine Optimization",
     svg: "seo",
     desc: "Boost your visibility with data-driven SEO strategies tailored to drive traffic and increase conversions.",
-    link: "/youtube-monetization-services",
+    link: "/search-engine-optimization-services",
   },
   {
     title: "Social Media Advertising",

@@ -15,55 +15,55 @@ const data = [
     {
         icon: one,
         title: "Keyword Research",
-        para: "Discover top-performing keywords to boost your video's search ranking and attract more viewers effortlessly.",
+        para: "Find the best search terms to rank higher and get discovered.",
         link: "javascript:;"
     },
     {
         icon: two,
         title: "Video SEO",
-        para: "Optimize titles, descriptions, and tags to enhance your video's visibility and improve search rankings effectively.",
+        para: "Optimize titles, tags, and descriptions to boost video visibility.",
         link: "javascript:;"
     },
     {
         icon: three,
         title: "Channel Optimization",
-        para: "Enhance your channel's layout and branding to create a professional, engaging experience that attracts viewers.",
+        para: "Polish your channel’s look and layout for better engagement.",
         link: "javascript:;"
     },
     {
         icon: four,
-        title: "Analytics and Reporting",
-        para: "Track performance with detailed analytics and reports to gain insights and drive strategic channel improvements.",
+        title: "Analytics & Reporting",
+        para: "Track performance and make data-backed improvements for growth.",
         link: "javascript:;"
     },
     {
         icon: five,
         title: "Custom Thumbnails",
-        para: "Create visually striking custom thumbnails to enhance video appeal and increase click-through rates effectively.",
+        para: "Create eye-catching thumbnails that increase clicks and views.",
         link: "javascript:;"
     },
     {
         icon: six,
-        title: "Playlists and End Screens",
-        para: "Organize videos with playlists and use end screens to boost viewer engagement and increase watch time.",
+        title: "Playlists & End Screens",
+        para: "Keep viewers watching longer with strategic video organization.",
         link: "javascript:;"
     },
     {
         icon: seven,
-        title: "Audience Retention Strategies",
-        para: "Implement strategies to keep viewers engaged longer, improving watch time and overall channel performance.",
+        title: "Audience Retention",
+        para: "Hook viewers early and keep them watching until the end.",
         link: "javascript:;"
     },
     {
         icon: eight,
         title: "Competitor Analysis",
-        para: "Analyze competitors to identify trends and opportunities, helping you outperform and capture a larger audience.",
+        para: "See what’s working for others and stay ahead in your niche.",
         link: "javascript:;"
     },
     {
         icon: nine,
         title: "Content Strategy",
-        para: "Develop a targeted content strategy to consistently create high-quality videos that attract and retain viewers.",
+        para: "Plan and structure videos to maximize engagement and growth.",
         link: "javascript:;"
     }
 ]

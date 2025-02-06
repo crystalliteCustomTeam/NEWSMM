@@ -11,7 +11,7 @@ export default function Services() {
                             Our <span className="inline-block text-primary relative before:absolute before:block before:w-full before:h-[19px] before:bg-[url(/path-1.webp)] before:left-0 before:right-0 before:bg-contain before:bg-no-repeat before:bg-center before:top-full">YouTube Optimization</span> Services
                         </h2>
                         <p className="inline-block text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal">
-                            Unlock your channel's potential with our comprehensive YouTube optimization services. From keyword research and video SEO to analytics and audience retention, we ensure your content reaches and engages a wider audience.
+                            Your content deserves more than just random views: it needs a real audience, consistent growth, and a system that turns viewers into subscribers and revenue. That’s where we come in.
                         </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
