@@ -16,10 +16,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 // React
-import { useState } from "react"
-// Next
-// import { useRouter } from "next/navigation"
-// import Link from "next/link"
+import { useEffect, useState } from "react"
 
 const formSchema = z.object({
     name: z.string().min(1, {
@@ -43,7 +40,7 @@ const formSchema = z.object({
 
 const FrontEndForm = ({ label = true, button = "Submit" }) => {
     const [loading, setLoading] = useState(false)
-    // const router = useRouter()
+    const [url, setURL] = useState(false)
     const form = useForm({
         resolver: zodResolver(formSchema),
         defaultValues: {
@@ -61,10 +58,50 @@ const FrontEndForm = ({ label = true, button = "Submit" }) => {
             }
             return acc
         }, {})
+        try {
+            let ip
+            try {
+                const ipResponse = await fetch("https://ipinfo.io/?token=9e980d0651edf4", {
+                    method: "GET",
+                });
+                if (!ipResponse.ok) {
+                    throw new Error(`Failed to fetch IP: ${ipResponse.status}`)
+                }
+                const ipData = await ipResponse.json()
+                ip = ipData?.ip
+            } catch (error) {
+                console.error("Error fetching IP:", error)
+                ip = '38.92.49.37'
+            }
 
-        console.log(filteredValues)
+            const response = await fetch("https://brandsapi.pulse-force.com/api/v1/leads", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    "page_url": url,
+                    "user_ip": ip,
+                    "lead_data": filteredValues
+                })
+            })
+
+            if (!response.ok) {
+                const errorData = await response.text()
+                throw new Error(`HTTP error! Status: ${response.status}, Details: ${errorData}`)
+            }
+
+            window.location.href = "/thankyou"
+
+        } catch (error) {
+            console.error("Error:", error)
+        } finally {
+            setLoading(false)
+        }
     }
-
+    useEffect(() => {
+        setURL(window.location.href)
+    }, [setURL])
     return (
         <Form {...form}>
             <form onSubmit={form.handleSubmit(handleSubmit)} className="grid grid-cols-1 gap-5">

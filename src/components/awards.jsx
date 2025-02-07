@@ -26,34 +26,34 @@ export default function Awards() {
                             <div className="h-[120px] flex items-center justify-center">
                                 <Image src={one} priority alt="Click First SMM" className="inline-block" />
                             </div>
-                            <h3 className="text-[25px] xl:text-[20px] 2xl:text-[25px] font-semibold mb-3 mt-5 leading-tight">
+                            {/* <h3 className="text-[25px] xl:text-[20px] 2xl:text-[25px] font-semibold mb-3 mt-5 leading-tight">
                                 Partnerships
                             </h3>
                             <p className="text-[14px] lg:text-[16px] xl:text-[14px] leading-relaxed xl:max-w-[300px] 2xl:max-w-[340px] mx-auto">
                                 Partnering with Industry Leaders like Meta allows us to leverage cutting-edge tools and insights, giving your business a competitive edge in the digital landscape. Together, we create strategies that drive real growth.
-                            </p>
+                            </p> */}
                         </div>
                         <div className="py-5">
                             <div className="h-[120px] flex items-center justify-center">
                                 <Image src={two} priority alt="Click First SMM" className="inline-block" />
                             </div>
-                            <h3 className="text-[25px] xl:text-[20px] 2xl:text-[25px] font-semibold mb-3 mt-5 leading-tight">
+                            {/* <h3 className="text-[25px] xl:text-[20px] 2xl:text-[25px] font-semibold mb-3 mt-5 leading-tight">
                                 Awards
                             </h3>
                             <p className="text-[14px] lg:text-[16px] xl:text-[14px] leading-relaxed xl:max-w-[290px] 2xl:max-w-[340px] mx-auto">
                                 We don’t guess,we analyze. Our strategies are built on solid data, ensuring every decision we make is optimized for your success. The numbers don’t lie, and they guide us to deliver campaigns that truly perform.
-                            </p>
+                            </p> */}
                         </div>
                         <div className="py-5">
                             <div className="h-[120px] flex items-center justify-center">
                                 <Image src={three} priority alt="Click First SMM" className="inline-block" />
                             </div>
-                            <h3 className="text-[25px] xl:text-[20px] 2xl:text-[25px] font-semibold mb-3 mt-5 leading-tight">
+                            {/* <h3 className="text-[25px] xl:text-[20px] 2xl:text-[25px] font-semibold mb-3 mt-5 leading-tight">
                                 Recognition
                             </h3>
                             <p className="text-[14px] lg:text-[16px] xl:text-[14px] leading-relaxed xl:max-w-[300px] 2xl:max-w-[350px] mx-auto">
                                 Our recognition by Clutch is a testament to our commitment to excellence. It’s proof that we deliver top-tier digital marketing solutions that get results. When you work with us, you’re choosing a partner recognized for quality and performance.
-                            </p>
+                            </p> */}
                         </div>
                     </div>
                 </div>
