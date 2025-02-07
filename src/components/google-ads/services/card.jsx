@@ -16,55 +16,55 @@ const data = [
         icon: one,
         title: "Keyword Research & Analysis",
         para: "We go beyond basic keywords, identifying high-intent search terms that put your ads in front of users ready to take action.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: two,
         title: "Landing Page Optimization",
         para: "An ad click is just the start. We design and optimize landing pages to ensure your traffic turns into leads and sales.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: three,
         title: "PPC Management",
         para: "Our real-time bid optimization and A/B testing ensure your budget is spent efficiently, reducing wasted spend and increasing conversions.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: four,
         title: "Paid Search Advertising",
         para: "We create targeted search ads that show up at the perfect moment—when customers are actively looking for your product or service.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: five,
         title: "Remarketing Campaigns",
         para: "Most visitors don’t convert on their first visit. We bring them back with smart remarketing ads that re-engage potential buyers and drive them to complete their purchase.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: six,
         title: "Conversion Rate Optimization (CRO)",
         para: "We analyze user behavior and fine-tune your campaigns to improve ad performance, reduce drop-offs, and increase sales.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: seven,
         title: "Amazon PPC",
         para: "Get your products in front of ready-to-buy shoppers with strategic Amazon ads that increase visibility and sales on the world’s biggest marketplace.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: eight,
         title: "YouTube Ads",
         para: "Video ads drive engagement like no other. We craft attention-grabbing, high-converting video ads that put your brand in front of the right audience.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: nine,
         title: "Social Media Advertising",
         para: "From Facebook to Instagram, we target the right audience with compelling creatives that drive clicks, engagement, and high-value conversions.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     }
 ]
 

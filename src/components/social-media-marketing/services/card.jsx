@@ -26,56 +26,56 @@ const data = [
         icon: icon1,
         title: "Social Media Strategy",
         para: "Unlock your business potential with Click First’s proven organic and paid social media strategies. We craft tailored plans to drive engagement, boost visibility, and deliver real results. Ready to grow? Let’s get started!",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: two,
         icon: icon2,
         title: "Content Creation",
         para: "Stand out with Click First’s captivating content! From scroll-stopping short-form videos and shareable memes to stunning graphics and animations, we create content that resonates with your audience and drives action. Let’s make your brand unforgettable!",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: three,
         icon: icon3,
         title: "Community Management",
         para: "Your community is your power. Click First’s expert community management builds meaningful connections, fosters loyalty, and fuels 50% of your social media growth. Let’s turn followers into advocates!",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: four,
         icon: icon4,
         title: "Data-Driven Results",
         para: "Data is at the heart of everything we do. Click First leverages in-depth channel analytics to make smart, performance-driven decisions that maximize your ROI. Let’s turn insights into action!",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: five,
         icon: icon5,
         title: "Paid Media Strategy",
         para: "Unlock the full potential of your paid media eorts with our expert strategies. We design customized plans to maximize ROI, drive conversions, and achieve your campaign goals. Ready to see real results? Let’s get started!",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: six,
         icon: icon6,
         title: "Paid Media Management",
         para: "We take the guesswork out of ad campaigns. Our team monitors and optimizes your ads daily to ensure peak performance and the highest ROI. Let us help you make every dollar count!",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: seven,
         icon: icon7,
         title: "Influencer Management",
         para: "Find the perfect influencers to amplify your brand. We identify partners who align with your audience and goals, ensuring authentic engagement and measurable results. Let’s create impactful collaborations!",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: eight,
         icon: icon8,
         title: "Campaign Management + Strategy",
         para: "From sweepstakes to brand collaborations, we create campaigns that captivate your audience and drive action. Let’s turn your ideas into high-performing social media success stories!",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     }
 ]
 

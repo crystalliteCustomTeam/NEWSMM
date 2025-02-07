@@ -205,12 +205,12 @@ export default function MarketingPackage() {
                                     Free 30 Min Consultation
                                 </p>
                                 <div dangerouslySetInnerHTML={{
-                                    __html: `<a href="javascript:;" class='text-[14px] sm:text-[18px] font-bold leading-tight mt-5 inline-flex items-center gap-3'>
+                                    __html: `<a href="javascript:void(Tawk_API.toggle())" class='text-[14px] sm:text-[18px] font-bold leading-tight mt-5 inline-flex items-center gap-3'>
                                     <img src='/search-engine-optimization/live-chat.png' width='23' alt='Click First SMM' height='20' />
                                     <span>Live Chat Now</span>    
                                 </a>`}} />
                                 <div dangerouslySetInnerHTML={{
-                                    __html: `<a href="javascript:;" class='text-[14px] sm:text-[18px] font-bold leading-tight mt-5 inline-flex items-center gap-3'>
+                                    __html: `<a href="javascript:void(Tawk_API.toggle())" class='text-[14px] sm:text-[18px] font-bold leading-tight mt-5 inline-flex items-center gap-3'>
                                     <img src='/search-engine-optimization/call.png' width='20' alt='Click First SMM' height='20' />
                                     <span>(717)-908-1211</span>    
                                 </a>`}} />

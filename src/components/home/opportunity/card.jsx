@@ -16,55 +16,55 @@ const data = [
         icon: one,
         title: "Social Media Marketing",
         para: "We create data-driven, engagement-focused strategies that spark conversations and build lasting brand loyalty. From content to campaigns, every move is designed to drive impact.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: two,
         title: "Social Media Management",
         para: "Boost your visibility with SEO-optimized content, real-time engagement, and trend-driven insights. We handle the heavy lifting while you focus on growth.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: three,
         title: "Social Media Advertising",
         para: "We craft ROI-driven campaigns that don’t just reach audiences—they convert them. From influencer collaborations to precision targeting, we fuel your brand’s growth.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: four,
         title: "Influencer Marketing",
         para: "Leverage trusted voices to boost brand credibility and drive conversions. We connect you with the right influencers for maximum impact.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: five,
         title: "YouTube Optimization",
         para: "Turn your channel into a growth engine with SEO-driven content, eye-catching thumbnails, and engaging videos that attract more views and subscribers.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: six,
         title: "YouTube Monetization",
         para: "Transform your YouTube presence into a profitable revenue stream with expert strategies for content, ads, and audience growth.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: seven,
         title: "Search Engine Optimization (SEO)",
         para: "Dominate search rankings with cutting-edge SEO strategies that increase traffic, visibility, and conversions.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: eight,
         title: "Google Ads (PPC)",
         para: "Run high-performing ad campaigns with precise targeting and data-driven optimization to maximize ROI.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         icon: nine,
         title: "Email Marketing",
         para: "Turn subscribers into loyal customers with personalized, high-converting email sequences that nurture leads and drive sales.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     }
 ]
 

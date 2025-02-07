@@ -17,9 +17,9 @@ export default function Awards() {
                         <h2 className="text-[28px] sm:text-[40px] lg:text-[50px] font-semibold leading-tight mb-5">
                             Our <span className="text-primary">Marketing</span> Partners
                         </h2>
-                        <p className="max-w-[718px] lg:max-w-[850px] inline-block text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal text-text">
+                        {/* <p className="max-w-[718px] lg:max-w-[850px] inline-block text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal text-text">
                             At ClickFirst, we believe that great partnerships lead to even greater results. By teaming up with industry leaders, we bring you the best in digital marketing innovation and expertise. Our collaborative approach ensures that your campaigns are not only creative but also highly effective and easy to implement.
-                        </p>
+                        </p> */}
                     </div>
                     <div className="xl:max-w-[1000px] 2xl:max-w-[1200px] mx-auto bg-primary rounded-3xl px-5 lg:p-5 grid grid-cols-1 xl:grid-cols-3 text-center text-white divide-y xl:divide-x xl:divide-y-0 z-20 relative">
                         <div className="py-5">

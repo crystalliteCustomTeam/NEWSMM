@@ -28,63 +28,63 @@ const data = [
         icon: icon1,
         title: "Keyword Research & Strategy",
         para: "We don’t chase traffic; we target buyers. Our approach ensures your brand ranks for high-intent searches that drive real business.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: two,
         icon: icon2,
         title: "Link Building",
         para: "Google trusts authority. We secure quality, niche-relevant backlinks to boost rankings and get your website the credibility it deserves.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: three,
         icon: icon3,
         title: "Technical SEO",
         para: "A slow, unoptimized site hurts rankings. We fix speed, indexing, and site structure to make sure search engines and customers find you first.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: four,
         icon: icon4,
         title: "Local SEO",
         para: "Get discovered by local customers actively searching for businesses like yours. We optimize your presence in maps, directories, and local search results.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: five,
         icon: icon5,
         title: "On-Page SEO",
         para: "Fine-tune your website’s structure, content, and performance for maximum search visibility and user engagement.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: six,
         icon: icon6,
         title: "Off-Page SEO",
         para: "Boost your site’s credibility with high-quality backlinks and strategic mentions that build authority and trust.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: seven,
         icon: icon7,
         title: "Shopify SEO",
         para: "Turn your Shopify store into a sales powerhouse with optimized product pages, structured data, and conversion-focused strategies.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: eight,
         icon: icon8,
         title: "Ecommerce SEO",
         para: "Rank your products higher and attract ready-to-buy customers with our specialized eCommerce optimization techniques.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: nine,
         icon: icon9,
         title: "Content Writing",
         para: "SEO is nothing without great content. We craft high-quality, keyword-rich content that ranks, engages, and converts.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     }
 ]
 

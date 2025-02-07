@@ -26,56 +26,56 @@ const data = [
         icon: icon1,
         title: "Awareness",
         para: "We craft powerful strategies that position your brand front and center, ensuring your audience connects with you at the right time, in the right place.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: two,
         icon: icon2,
         title: "Sales",
         para: "Our solutions are designed to convert interest into action, increasing sales and helping your business exceed its goals.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: three,
         icon: icon3,
         title: "Generate High-Quality Leads",
         para: "From capturing attention to nurturing intent, we deliver campaigns that bring you leads ready to convert.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: four,
         icon: icon4,
         title: "Fill Your Calendar",
         para: "Our targeted strategies ensure your calendar stays booked with qualified prospects who are eager to work with you.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: five,
         icon: icon5,
         title: "App Downloads",
         para: "We craft high-impact campaigns that boost app downloads and ensure long-term user engagement. With precise targeting and compelling creatives, we drive installs that deliver real results.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: six,
         icon: icon6,
         title: "Website Traffic",
         para: "Harness SEO, targeted ads, and data-driven strategies to dominate search and social. Your website becomes a conversion magnet, not just a destination.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: seven,
         icon: icon7,
         title: "Conversations = Conversions",
         para: "Turn inquiries into business with campaigns designed to spark conversations. Whether it’s through DMs, phone calls, or WhatsApp, we’ll make sure your audience reaches out – and keeps coming back.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     },
     {
         bg: eight,
         icon: icon8,
         title: "Views",
         para: "We craft scroll-stopping content that grabs attention and builds awareness. With precision targeting and data-driven strategies, your brand stays unmissable.",
-        link: "javascript:;"
+        link: "javascript:void(Tawk_API.toggle())"
     }
 ]
 

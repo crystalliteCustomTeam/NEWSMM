@@ -43,197 +43,197 @@ const data = [
         title: "Cleaning Service",
         txt: "Struggling to stand out in a crowded market? Let our social media magic make your spotless services a trending topic!",
         img: IMG01,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     },
     {
         title: "Packaged Consumer Goods",
         txt: "Finding it hard to connect with your  audience? Boost your brand presence and engage customers with our  compelling social media strategies!",
         img: IMG02,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Makeup Artists",
         txt: "Want to transform your artistry into a viral sensation? Our social media expertise will help your talent shine online!",
         img: IMG03,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     },
     {
         title: "Real Estate",
         txt: "Having trouble getting your listings noticed? Make every property a must-see with our targeted social media campaigns!",
         img: IMG04,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     },
     {
         title: "Finance",
         txt: "Is your financial expertise getting lost in the noise? Simplify complex concepts and build trust with engaging social media content!",
         img: IMG05,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Music",
         txt: "Struggling to reach a wider audience? Amplify your sound and connect with millions through our dynamic social media strategies!",
         img: IMG06,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Restaurant",
         txt: "Need to fill more seats and make mouths water? Our irresistible social media content will turn your dishes into viral hits!",
         img: IMG07,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Furniture/Interior Designing",
         txt: "Finding it hard to showcase your designs? Create stunning visual feeds that attract clients with our social media flair!",
         img: IMG08,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Fashion",
         txt: "Is your brand struggling to stay ahead of the trends? Turn heads and set trends with our stylish social media campaigns!",
         img: IMG09,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Health and Wellness",
         txt: "Having trouble promoting healthy living? Build a loyal following and inspire wellness with our targeted social media solutions!",
         img: IMG10,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Dry Cleaning",
         txt: "Are your services not getting the attention they deserve? Transform your convenience into online buzz with our social media expertise!",
         img: IMG11,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Cosmetics",
         txt: "Want your beauty products to go viral? Our social media strategies will make your brand the talk of the town!",
         img: IMG12,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Security Services",
         txt: "Struggling to build trust in your services? Highlight safety and reliability with our powerful social media campaigns!",
         img: IMG13,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Supplements",
         txt: "Need to boost your brand and sales? Drive engagement and conversions with our effective social media strategies!",
         img: IMG14,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Ecommerce",
         txt: "Finding it hard to drive traffic and sales? Our cutting-edge social media strategies will turn browsers into buyers!",
         img: IMG15,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     },
     {
         title: "Fitness & Modeling",
         txt: "Want to flex your brand and gain followers? Our social media workouts will grow your audience and influence!",
         img: IMG16,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Spa and Salon",
         txt: "Want more clients to indulge in your services? Turn treatments into trending topics with our social media prowess!",
         img: IMG17,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Handyman",
         txt: "Struggling to showcase your skills and get booked? Highlight your expertise and attract clients with our effective social media!",
         img: IMG18,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Sports",
         txt: "Finding it hard to engage with fans? Score big and build a loyal fanbase with our engaging social media content!",
         img: IMG19,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Automotive",
         txt: "Need to drive more sales and engagement? Accelerate your online presence with our high-octane social media strategies!",
         img: IMG20,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Jewelry & Accessories",
         txt: "Want your pieces to shine online? Our social media sparkle will make your brand dazzle and attract customers!",
         img: IMG21,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Content Creators",
         txt: "Struggling to grow your audience and influence? Elevate your content and reach more followers with our social media strategies!",
         img: IMG22,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Event/Ticket Sales",
         txt: "Need to turn events into sell-out experiences? Create buzz and drive ticket sales with our captivating social media campaigns!",
         img: IMG23,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "B2B Businesses",
         txt: "Finding it hard to build professional relationships? Enhance your brand awareness and connect with clients through targeted social media!",
         img: IMG24,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Construction",
         txt: "Struggling to showcase your projects? Highlight your expertise and attract clients with our robust social media plans!",
         img: IMG25,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Learning & Education",
         txt: "Want to engage more students? Educate and inspire with innovative social media strategies that connect!",
         img: IMG26,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Insurance",
         txt: "Need to build trust and educate clients? Simplify complex concepts and connect with customers through our informative social media content!",
         img: IMG27,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Engineering Firms",
         txt: "Finding it hard to highlight your expertise? Showcase your projects and attract clients with precise social media campaigns!",
         img: IMG28,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Animal & Pets",
         txt: "Want to create a paw-some online presence? Engage pet lovers and grow your brand with our pet-friendly social media strategies!",
         img: IMG29,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Hotel & Resorts",
         txt: "Need to turn stays into unforgettable stories? Attract travelers and inspire journeys with our captivating social media content!",
         img: IMG30,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Non-Profits & Causes",
         txt: "Struggling to raise awareness and support? Amplify your mission and connect with supporters through impactful social media campaigns!",
         img: IMG31,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Transportation and Logistics",
         txt: "Want to drive efficiency and build trust? Streamline your operations and connect with clients through our effective social media strategies!",
         img: IMG32,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Legal",
         txt: "Finding it hard to build credibility and connect with clients? Enhance your professional presence and trustworthiness with our legal-friendly social media campaigns!",
         img: IMG33,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }, {
         title: "Travel & Tours",
         txt: "Want to inspire more journeys and attract travelers? Make every destination a dream with our adventurous social media strategies!",
         img: IMG34,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
     , {
         title: "Film & Photography",
         txt: "Want your images and videos to stand out in the digital crowd? Our social media strategies will elevate your film and photography work, attracting the audience you deserve!",
         img: IMG35,
-        links: "javascript:;"
+        links: "javascript:void(Tawk_API.toggle())"
     }
 ]
 
