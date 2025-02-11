@@ -84,7 +84,7 @@ export default function Platfarm({ wrapperCSS = "py-[100px]" }) {
                             <span className="text-primary">Platforms</span> We Work With
                         </h2>
                         <p className="max-w-[718px] lg:max-w-[818px] inline-block text-[14px] sm:text-[16px] leading-relaxed text-text">
-                            In addition to the creative direction, we design our PowerPoint Templates to be quickly deployed and adopted by all. We add many features to make the experience and transition easy.
+                            Expanding your brand’s presence across the most powerful social media platforms with tailored strategies that drive engagement and results.
                         </p>
                     </div>
                     <div className="flex flex-wrap gap-x-5 gap-y-10 justify-center items-end">
