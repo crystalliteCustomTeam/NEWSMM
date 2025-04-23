@@ -115,11 +115,15 @@ export default function Footer() {
                         <p className="text-[14px]  2xl:text-[16px] leading-normal">
                             Copyright @ClickFirstSMM 2025
                         </p>
-                        <ul className="flex divide-x">
+                        <ul className="flex gap-3">
                             {
-                                [["Terms and Conditions", "/terms-and-conditions"], ["Privacy Policy", "/privacy-policy"]].map(([text, link], i) => (
-                                    <li key={i} className="first:pr-1.5 last:pl-1.5">
-                                        <Link href={link} className="text-[14px] 2xl:text-[16px] leading-tight hover:text-secondary">
+                                [
+                                    ["Terms and Conditions", "/terms-and-conditions"], 
+                                    ["Privacy Policy", "/privacy-policy"], 
+                                    ["Refund Form", "/refund-form"]
+                                ].map(([text, link], i) => (
+                                    <li key={i}>
+                                        <Link href={link} className="text-[10px] sm:text-[14px] 2xl:text-[16px] leading-tight hover:text-secondary">
                                             {text}
                                         </Link>
                                     </li>

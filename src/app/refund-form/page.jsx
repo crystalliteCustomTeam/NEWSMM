@@ -1,0 +1,55 @@
+// Components
+import RefundForm from "@/components/refundform"
+
+export default function Page() {
+    return (
+        <section>
+            <div className="bg-primary h-[93px]"></div>
+            <div className="py-[100px]">
+                <div className="container">
+                    <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
+                        <div className="text-black">
+                            <h1 className="text-3xl font-bold mb-6">Refund Policy for Click First SMM</h1>
+                            <p className="border-b pb-4 text-justify">Click First SMM, aims to provide excellent service and ensure customer satisfaction. Our refund and cancellation policies are designed to protect both our clients and our company. Please read through the following policy to understand how refund requests are handled.</p>
+                            <div className="text-xl font-semibold mb-2 mt-4">General Refund Policy:</div>
+                            <ul className="list-none mb-4">
+                                <li className="mb-2 text-justify">
+                                    <strong className="text-primary">Cancellation: </strong>You are eligible for a full refund (less a 10% processing fee) if the order is canceled within 24 hours of order placement. Refunds are not applicable if initial content or designs are delivered or revisions are requested within this timeframe.
+                                </li>
+                                <li className="mb-2 text-justify">
+                                    <strong className="text-primary">Order Inactivity: </strong>No refund will be issued if there is no activity on the order for 30 days after the order is placed. To reactivate the project, you will need to pay a fee depending on the project scope.
+                                </li>
+                                <li className="mb-2 text-justify">
+                                    <strong className="text-primary">Final Deliverables: </strong>Refund requests will not be entertained after final files have been delivered.
+                                </li>
+                                <li className="mb-2 text-justify">
+                                    <strong className="text-primary">Refund Reasons: </strong>Refund requests must be based on valid reasons, such as non-compliance with the brief or inadequate revisions. No refunds will be issued for change of mind or if the content meets the agreed-upon requirements.
+                                </li>
+                                <li className="mb-2 text-justify">
+                                    <strong className="text-primary">Good Faith: </strong>If you have placed the same content order with multiple agencies to claim a refund, this will be considered a breach of good faith, and the refund request may be denied.
+                                </li>
+                                <li>
+                                    <strong className="text-primary">Customer Feedback: </strong>Clients are expected to provide timely feedback to ensure the completion of the project. Lack of feedback may affect the project delivery and refund eligibility.
+                                </li>
+                            </ul>
+                            <p><i>*** Fill out the refund form or email it to <a href="mailto:finance@clickfirstsmm.com" className="text-primary">finance@clickfirstsmm.com</a>. ***</i></p>
+                        </div>
+                        <div className="sticky top-[120px] self-start">
+                            <RefundForm />
+                        </div>
+                    </div>
+                    <div className="text-black text-center max-w-[750px] mx-auto mt-10">
+                        <div className="text-2xl font-semibold mb-2 mt-4">Contact Us</div>
+                        <p className="mb-4">For any inquiries or concerns regarding the Refund Policy, please feel free to reach out to our customer support team. We are here to assist you and ensure your satisfaction with our services.</p>
+                        <ul>
+                            <li>
+                                <strong className="text-primary">Email: </strong>
+                                <a href="mailto:finance@clickfirstsmm.com">finance@clickfirstsmm.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}

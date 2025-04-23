@@ -1,6 +1,6 @@
 // Css
 import Script from "next/script"
-import "./build.css"
+import "./globals.css"
 // Fonts
 import { fontSans } from "./fonts"
 // Components
