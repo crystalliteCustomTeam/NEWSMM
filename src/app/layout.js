@@ -13,6 +13,9 @@ export const metadata = {
   alternates: {
     canonical: '/',
   },
+  other: {
+    'google-site-verification': 'rwcdux08MOOJvI9ELOdkhRW2nJ_3ocjjC1qvA8o1hhk',
+  },
   robots: {
     index: true,
     follow: true,
@@ -44,13 +47,23 @@ export default function RootLayout({ children }) {
           })();
         `}
       </Script>
+      <Script id="GTMCODE">
+        {`
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.j...efore(j,f);
+        })(window,document,'script','dataLayer','GTM-KQFVWWGF');
+        `}
+      </Script>
       <body className={`${fontSans.variable} antialiased font-sans font-normal`}>
-        <Header />
-        <main>
-          {children}
-        </main>
-        <Footer />
-      </body>
-    </html>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQFVWWGF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <Header />
+      <main>
+        {children}
+      </main>
+      <Footer />
+    </body>
+    </html >
   )
 }
