@@ -1,5 +1,6 @@
 // Css
 import Script from "next/script"
+import { GoogleTagManager } from '@next/third-parties/google'
 import "./globals.css"
 // Fonts
 import { fontSans } from "./fonts"
@@ -34,6 +35,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+
       <Script id="tawk" strategy="afterInteractive">
         {`
           var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -47,7 +49,8 @@ export default function RootLayout({ children }) {
           })();
         `}
       </Script>
-      <Script id="GTMCODE">
+       <GoogleTagManager gtmId="GTM-KQFVWWGF" />
+      {/* <Script id="GTMCODE" strategy="beforeInteractive">
         {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -55,9 +58,9 @@ export default function RootLayout({ children }) {
         'https://www.googletagmanager.com/gtm.j...efore(j,f);
         })(window,document,'script','dataLayer','GTM-KQFVWWGF');
         `}
-      </Script>
+      </Script> */}
       <body className={`${fontSans.variable} antialiased font-sans font-normal`}>
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQFVWWGF" height="0" width="0" style={{ display:'none', visibility:'hidden' }}></iframe></noscript>
+       
       <Header />
       <main>
         {children}
