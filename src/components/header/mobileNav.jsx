@@ -650,7 +650,7 @@ export default function MobileNav() {
         </ul>
         <div>
           <CTA
-            href="tel:346-299-2202" text="Call Now: 346-299-2202"  
+            href="tel:833-666-6684 " text="Call Now: 833-666-6684 "  
             css="inline-flex w-[220px] h-[45px] border border-white hover:bg-secondary hover:border-secondary hover:rounded-[5px_0_15px_5px]"
           />
         </div>

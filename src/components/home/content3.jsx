@@ -26,7 +26,7 @@ export default function Content3() {
                             </div>
                             <div className="flex flex-col sm:flex-row gap-5">
                                 <CTA css="hover:bg-white hover:text-black" theme="secondary" size="large" text="Get a Free Quote" />
-                                <CTA css="hover:bg-secondary hover:border-secondary" theme="transparent" size="large" href="tel:346-299-2202" text="Call Now: 346-299-2202"   />
+                                <CTA css="hover:bg-secondary hover:border-secondary" theme="transparent" size="large" href="tel:833-666-6684 " text="Call Now: 833-666-6684 "   />
                             </div>
                         </div>
                         <div>

@@ -92,7 +92,7 @@ export default function Footer() {
                                         ["Headquarters: 9402 Synott RD apt 114, Houston Texas 77083", "/", mapmarker],
                                         ["Operations: 4424 W Sam Houston PKWY N Westway #301 Houston, TX 77041", "/", mapmarker],
                                         ["support@clickfirstsmm.com", "mailto:support@clickfirstsmm.com", envelope],
-                                        ["346-299-2202", "tel:346-299-2202", phone]
+                                        ["833-666-6684 ", "tel:833-666-6684 ", phone]
                                     ].map(([text, link, icon], i) => (
                                         <li key={i}>
                                             <Link href={link} className="text-[14px] 2xl:text-[16px] text-text leading-relaxed hover:text-secondary inline-flex gap-3 items-start">
