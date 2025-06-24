@@ -16,55 +16,55 @@ const data = [
         icon: one,
         title: "Channel Optimization",
         para: "Your content deserves to be seen. We fine-tune your channel with top-performing keywords, strategic structuring, and algorithm-friendly techniques to maximize discoverability.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: two,
         title: "Content Strategy Planning",
         para: "Great content needs the right positioning. We craft powerful titles, descriptions, and tags designed to increase visibility, engagement, and long-term channel growth.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: three,
         title: "Video SEO Optimization",
         para: "Ranking higher isn’t luck—it’s science. We optimize your videos with proven SEO tactics, ensuring your content reaches the right audience at the right time.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: four,
         title: "AdSense Account Setup",
         para: "Monetization starts with the right foundation. We set up and optimize your AdSense account for maximum revenue potential, backed by performance insights and analytics.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: five,
         title: "Brand Partnership Management",
         para: "Your channel is a brand—treat it like one. We help you secure partnerships, optimize sponsorships, and create high-converting brand deals that align with your content.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: six,
         title: "Merchandise Store Integration",
         para: "Turn your audience into paying customers. We seamlessly integrate merchandise stores, playlists, and end screens to boost engagement and drive conversions.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: seven,
         title: "Super Chats Setup",
         para: "Turn engagement into earnings. We optimize your Super Chats setup to maximize audience interaction and increase revenue during live streams.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: eight,
         title: "Membership Tiers Creation",
         para: "Loyal fans want more from you—give them exclusive perks, content, and community benefits with a well-structured membership program. We help set it up the right way.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: nine,
         title: "Performance Analytics Reports",
         para: "Success is in the numbers. We analyze your channel’s performance, audience behavior, and revenue streams to fine-tune strategies for consistent growth.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     }
 ]
 

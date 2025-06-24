@@ -20,7 +20,7 @@ export default function CustomizeBanner() {
                                 Booked an Appointment With Our Expert
                             </a>`}} />
                                 <div dangerouslySetInnerHTML={{
-                                    __html: `<a href="javascript:void(Tawk_API.toggle())" class="text-[14px] xl:text-[16px] inline-block font-semibold px-[10] xl:px-[20px] py-[30px] lg:py-[40px] bg-transparent border-2 border-white hover:bg-secondary hover:border-secondary transition-all duration-300 hover:py-[10px] w-[330px] md:w-max">
+                                    __html: `<a href="javascript:;" class="text-[14px] xl:text-[16px] inline-block font-semibold px-[10] xl:px-[20px] py-[30px] lg:py-[40px] bg-transparent border-2 border-white hover:bg-secondary hover:border-secondary transition-all duration-300 hover:py-[10px] w-[330px] md:w-max">
                                 Get a Free Consultation
                             </a>`}} />
                             </div>

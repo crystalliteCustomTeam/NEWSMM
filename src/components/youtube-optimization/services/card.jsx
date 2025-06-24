@@ -16,55 +16,55 @@ const data = [
         icon: one,
         title: "Keyword Research",
         para: "Find the best search terms to rank higher and get discovered.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: two,
         title: "Video SEO",
         para: "Optimize titles, tags, and descriptions to boost video visibility.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: three,
         title: "Channel Optimization",
         para: "Polish your channel’s look and layout for better engagement.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: four,
         title: "Analytics & Reporting",
         para: "Track performance and make data-backed improvements for growth.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: five,
         title: "Custom Thumbnails",
         para: "Create eye-catching thumbnails that increase clicks and views.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: six,
         title: "Playlists & End Screens",
         para: "Keep viewers watching longer with strategic video organization.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: seven,
         title: "Audience Retention",
         para: "Hook viewers early and keep them watching until the end.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: eight,
         title: "Competitor Analysis",
         para: "See what’s working for others and stay ahead in your niche.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         icon: nine,
         title: "Content Strategy",
         para: "Plan and structure videos to maximize engagement and growth.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     }
 ]
 

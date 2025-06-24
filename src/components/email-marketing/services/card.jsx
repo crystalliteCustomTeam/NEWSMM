@@ -26,56 +26,56 @@ const data = [
         icon: icon1,
         title: "Strategy Development",
         para: "Emails that convert don’t happen by accident. We create data-driven strategies that drive sales and engagement.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         bg: two,
         icon: icon2,
         title: "Email List Growth",
         para: "Build a list of buyers, not just subscribers. We attract engaged, high-value leads that actually convert.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         bg: three,
         icon: icon3,
         title: "Campaign Execution",
         para: "We don’t just send emails—we craft high-impact campaigns that get opened, read, and acted on.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         bg: four,
         icon: icon4,
         title: "Behavioral Automation",
         para: "Right message, right time. We automate smart sequences that react to customer actions and boost conversions.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         bg: five,
         icon: icon5,
         title: "Cross-Device Design",
         para: "Flawless emails, everywhere. We design responsive, high-converting emails that look great on any device.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         bg: six,
         icon: icon6,
         title: "Email Design & Coding",
         para: "Boring emails don’t sell. We craft visually stunning, perfectly coded emails that grab attention and drive action.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         bg: seven,
         icon: icon7,
         title: "Advanced Analytics",
         para: "Stop guessing, start optimizing. We track and refine performance to maximize every email’s impact.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     },
     {
         bg: eight,
         icon: icon8,
         title: "SMS Marketing Strategy",
         para: "Instant engagement, direct results. We build SMS campaigns that cut through noise and drive action fast.",
-        link: "javascript:void(Tawk_API.toggle())"
+        link: "javascript:;"
     }
 ]
 

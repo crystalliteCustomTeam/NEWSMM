@@ -18,7 +18,7 @@ export default function ChatBanner() {
                             Start your journey to success with us!
                         </p>
                         <div dangerouslySetInnerHTML={{
-                            __html: `<a href="javascript:void(Tawk_API.toggle())" class="border-2 w-[300px] sm:w-[400px] inline-flex items-center justify-center h-[150px] text-[40px] leading-tight relative z-10 before:content-[''] before:absolute before:top-0 before:bottom-0 before:left-0 before:w-0 before:h-full before:bg-white hover:before:w-[10%] before:transition-all before:duration-300 after:content-[url('/hover-chat-icon.webp')] after:absolute after:right-[25px] after:top-0 hover:after:-top-[25px] after:transition-all after:duration-300 after:opacity-0 hover:after:opacity-100">
+                            __html: `<a href="javascript:;" class="border-2 w-[300px] sm:w-[400px] inline-flex items-center justify-center h-[150px] text-[40px] leading-tight relative z-10 before:content-[''] before:absolute before:top-0 before:bottom-0 before:left-0 before:w-0 before:h-full before:bg-white hover:before:w-[10%] before:transition-all before:duration-300 after:content-[url('/hover-chat-icon.webp')] after:absolute after:right-[25px] after:top-0 hover:after:-top-[25px] after:transition-all after:duration-300 after:opacity-0 hover:after:opacity-100">
                             Chat Now
                         </a>`}} />
                     </div>
