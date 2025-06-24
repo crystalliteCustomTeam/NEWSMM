@@ -205,14 +205,14 @@ export default function MarketingPackage() {
                                     Free 30 Min Consultation
                                 </p>
                                 <div dangerouslySetInnerHTML={{
-                                    __html: `<a href="javascript:;" class='text-[14px] sm:text-[18px] font-bold leading-tight mt-5 inline-flex items-center gap-3'>
+                                    __html: `<a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" class='text-[14px] sm:text-[18px] font-bold leading-tight mt-5 inline-flex items-center gap-3'>
                                     <img src='/search-engine-optimization/live-chat.png' width='23' alt='Click First SMM' height='20' />
                                     <span>Live Chat Now</span>    
                                 </a>`}} />
                                 <div dangerouslySetInnerHTML={{
-                                    __html: `<a href="javascript:;" class='text-[14px] sm:text-[18px] font-bold leading-tight mt-5 inline-flex items-center gap-3'>
+                                    __html: `<a href="tel:(833)-666-6684"  class='text-[14px] sm:text-[18px] font-bold leading-tight mt-5 inline-flex items-center gap-3'>
                                     <img src='/search-engine-optimization/call.png' width='20' alt='Click First SMM' height='20' />
-                                    <span>(717)-908-1211</span>    
+                                    <span>(833)-666-6684</span>    
                                 </a>`}} />
                                 <hr className="inline-block mb-5 mt-5 w-full h-[3px] border-[#D29300]" />
                                 <CTA css="!bg-primary hover:!bg-black w-full" theme="secondary" size="large" text="Get a Free Quote" />

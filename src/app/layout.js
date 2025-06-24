@@ -40,7 +40,6 @@ export default function RootLayout({ children }) {
       <GoogleTagManager gtmId="GTM-KQFVWWGF" />
       <Script id="Chat">
         {`
-        
     window.__lc = window.__lc || {};
     window.__lc.license = 19024239;
     window.__lc.integration_name = "manual_channels";
