@@ -1,8 +1,14 @@
 import Video from "@/components/home/hero/video"
+import Script from "next/script"
 
 export default function Page() {
     return (
         <>
+            <Script>
+                {`
+                  gtag('event', 'conversion', {'send_to': 'AW-11394746459/A2Z4CKyO_-YaENuQuLkq'});
+                `}
+            </Script>
             <section>
                 <div className="relative pb-[60px] sm:pb-[100px] pt-[150px] lg:pb-0 lg:pt-0 bg-primary lg:h-[650px] xl:h-screen overflow-hidden z-[1]">
                     <Video />
