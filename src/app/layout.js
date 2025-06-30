@@ -38,6 +38,7 @@ export default function RootLayout({ children }) {
 
 
       <GoogleTagManager gtmId="GTM-KQFVWWGF" />
+      <GoogleTagManager gtmId="AW-11394746459" />
       <Script id="Chat">
         {`
     window.__lc = window.__lc || {};
