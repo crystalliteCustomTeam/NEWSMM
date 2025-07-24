@@ -90,7 +90,7 @@ export default function Footer() {
                                 {
                                     [
                                         ["Headquarters: 9402 Synott RD apt 114, Houston Texas 77083", "/", mapmarker],
-                                        ["Operations: 4424 W Sam Houston PKWY N Westway #301 Houston, TX 77041", "/", mapmarker],
+                                        ["Operations: 4424 W Sam Houston PKWY N Westway #301 Houston, TX 77041", "https://maps.app.goo.gl/V9ykPtUg7HCjaPWS6", mapmarker],
                                         ["support@clickfirstsmm.com", "mailto:support@clickfirstsmm.com", envelope],
                                         ["833-666-6684 ", "tel:833-666-6684 ", phone]
                                     ].map(([text, link, icon], i) => (
