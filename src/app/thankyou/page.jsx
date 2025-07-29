@@ -4,9 +4,14 @@ import Script from "next/script"
 export default function Page() {
     return (
         <>
-            <Script>
+            <Script id="conversion">
                 {`
                   gtag('event', 'conversion', {'send_to': 'AW-11394746459/YDI0CKHioboZENuQuLkq'});
+                `}
+            </Script>
+            <Script id="conversion2">
+                {`
+                   gtag('event', 'conversion', {'send_to': 'AW-11394746459/A2Z4CKyO_-YaENuQuLkq'});
                 `}
             </Script>
             <section>
