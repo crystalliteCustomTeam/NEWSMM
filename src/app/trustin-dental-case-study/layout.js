@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
-    title: "About Us - ClickfirstSMM",
+    title: "Trust In Dental Case Study - ClickfirstSMM",
     alternates: {
-        canonical: '/trustin-dental-case-study',
+        canonical: '/about-us',
     },
 }
 
