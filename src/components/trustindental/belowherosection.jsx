@@ -8,6 +8,7 @@ import svg_path_one from 'media/casestudy/Path-One.png';
 import image_five from 'media/casestudy/tdg-six.png';
 import image_six from 'media/casestudy/TimeSeries.png';
 import image_seven from 'media/casestudy/TDG-Seven.jpg';
+import TDGLast from 'media/casestudy/TDG-Last.jpg';
 
 export default function Belowherosection() {
     return (
@@ -16,28 +17,28 @@ export default function Belowherosection() {
                 <h2 className="text-[35px] sm:text-[40px] md:text-[45px] lg:text-[50px] xl:text-[50px] font-bold leading-tight mb-8 text-center">
                     How We Helped Tustin Dental Group <br /> Achieve 400% ROI
                 </h2>
-                <div className='grid grid-cols-2 gap-10 mt-16'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mt-16'>
                     <div>
                         <Image src={image_one} className='shadow-xl' alt='Click First SMM Case Study' />
                     </div>
                     <div className='flex flex-col justify-between'>
                         <h3 className='text-[35px]  md:text-[35px] font-bold leading-[0.8]'>The Results</h3>
-                        <div className='flex flex-col gap-4'>
+                        <div className='flex flex-col gap-4 mt-5 md:mt-0'>
                             <div className='bg-primary w-[100%] h-[100px] flex justify-center items-center'>
-                                <h3 className='text-white text-[30px] font-bold text-center'>400%+ ROI & ROAS</h3>
+                                <h3 className='text-white  text-[20px] md:text-[30px] font-bold text-center'>400%+ ROI & ROAS</h3>
                             </div>
                             <div className='bg-primary w-[100%] h-[100px] flex justify-center items-center'>
-                                <h3 className='text-white text-[30px] font-bold text-center'>120+ New Patient Inquiries Generated</h3>
+                                <h3 className='text-white text-[20px] md:text-[30px] font-bold text-center'>120+ New Patient Inquiries Generated</h3>
                             </div>
                             <div className='bg-primary w-[100%] h-[100px] flex justify-center items-center'>
-                                <h3 className='text-white text-[30px] font-bold text-center'>Ranked in the Top 3 on Google Maps </h3>
+                                <h3 className='text-white text-[20px] md:text-[30px] font-bold text-center'>Ranked in the Top 3 on Google Maps </h3>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className='mt-5'>
-                    <div className='grid grid-cols-2'>
+                    <div className='grid grid-cols-1 md:grid-cols-2'>
                         <div>
                             <h2 className="text-[35px] sm:text-[40px] md:text-[40px]  font-bold leading-tight mb-8 ">
                                 Fully Verified & Ready to Scale
@@ -51,15 +52,15 @@ export default function Belowherosection() {
                             </p>
                             <p className='mt-3'> We built the foundation for success by fully verifying their business through Google, a critical step in unlocking advanced ad placements and trust signals.</p>
                         </div>
-                        <div className='flex items-end justify-center'>
+                        <div className='flex items-end justify-center mt-5 md:mt-0'>
 
 
-                            <ul className='flex flex-col gap-2'>
-                                <li className='flex gap-10 items-center'><div className='bg-primary h-[10px] w-[10px] rounded-full'></div> Activate the “Google Verified Doctor” badge</li>
-                                <li className='flex gap-10 items-center'><div className='bg-primary h-[10px] w-[10px] rounded-full'></div>Unlock higher visibility on search and maps</li>
-                                <li className='flex gap-10 items-center'><div className='bg-primary h-[10px] w-[10px] rounded-full'></div>Build trust with new patients at first glance</li>
-                                <li className='flex gap-10 items-center'><div className='bg-primary h-[10px] w-[10px] rounded-full'></div>Activate the “Google Verified Doctor” badge</li>
-                                <li className='flex gap-10 items-center'><div className='bg-primary h-[10px] w-[10px] rounded-full'></div>Activate the “Google Verified Doctor” badge</li>
+                            <ul className='flex flex-col gap-3 md:gap-2'>
+                                <li className='flex gap-3 md:gap-10 items-center'><div className='bg-primary h-[10px] w-[10px] rounded-full'></div> Activate the “Google Verified Doctor” badge</li>
+                                <li className='flex gap-3 md:gap-10 items-center'><div className='bg-primary h-[10px] w-[10px] rounded-full'></div>Unlock higher visibility on search and maps</li>
+                                <li className='flex gap-3 md:gap-10 items-center'><div className='bg-primary h-[10px] w-[10px] rounded-full'></div>Build trust with new patients at first glance</li>
+                                <li className='flex gap-3 md:gap-10 items-center'><div className='bg-primary h-[10px] w-[10px] rounded-full'></div>Activate the “Google Verified Doctor” badge</li>
+                                <li className='flex gap-3 md:gap-10 items-center'><div className='bg-primary h-[10px] w-[10px] rounded-full'></div>Activate the “Google Verified Doctor” badge</li>
                             </ul>
                         </div>
 
@@ -71,7 +72,7 @@ export default function Belowherosection() {
                         <Image src={image_two} alt='CLICK FIRST SMM' className='shadow-xl' />
                     </div>
                     <div className='mt-16'>
-                        <h2 className="text-[35px] sm:text-[40px] md:text-[45px] lg:text-[50px] xl:text-[50px] font-bold leading-tight mb-8 ">
+                        <h2 className="text-[30px] sm:text-[40px] md:text-[45px] lg:text-[50px] xl:text-[50px] font-bold leading-tight mb-8 ">
                             1024 Calls in 6 Months <br /> Powered by Local Optimization
                         </h2>
                         <p className='text-[16px]'>
@@ -85,7 +86,7 @@ export default function Belowherosection() {
                         <Image src={image_three} alt='CLICK FIRST SMM' className='shadow-xl' />
                     </div>
                     <div className='mt-16'>
-                        <h2 className="text-[35px] sm:text-[40px] md:text-[45px] lg:text-[50px] xl:text-[50px] font-bold leading-tight mb-8 ">
+                        <h2 className="text-[30px] sm:text-[30px] md:text-[45px] lg:text-[50px] xl:text-[50px] font-bold leading-tight mb-8 ">
                             The Strategy Behind Their Success
                         </h2>
                         <p className='text-[16px] font-bold'>
@@ -115,7 +116,7 @@ export default function Belowherosection() {
                     </div>
                     <div className='w-[100%] h-[2px] bg-gray-200 my-10'></div>
                     <div className='my-5'>
-                        <h2 className="text-[35px] sm:text-[40px] md:text-[50px]  font-bold leading-tight mb-8 ">
+                        <h2 className="text-[30px] sm:text-[30px] md:text-[50px]  font-bold leading-tight mb-8 ">
                             Over 30,000 Profile Views & 28,000+ Search Appearances in Just 6 Months
                         </h2>
                         <p className='text-[16px] mt-5'>
@@ -155,7 +156,7 @@ export default function Belowherosection() {
                         <div className='w-[100%] h-[2px] bg-gray-200 my-10'></div>
 
                         <div className='mt-5'>
-                            <h2 className="text-[35px] sm:text-[40px] md:text-[50px]  font-bold leading-tight mb-8 ">
+                            <h2 className="text-[30px] sm:text-[40px] md:text-[50px]  font-bold leading-tight mb-8 ">
                                 Fully Optimized & Trusted Google <br /> Business Presence
                             </h2>
                         </div>
@@ -179,7 +180,7 @@ export default function Belowherosection() {
                         </div>
                         <div className='w-[100%] h-[2px] bg-gray-200 my-10'></div>
                         <div className='mt-10'>
-                            <h2 className="text-[35px] sm:text-[40px] md:text-[50px]  font-bold leading-tight mb-8 ">
+                            <h2 className="text-[30px] sm:text-[40px] md:text-[50px]  font-bold leading-tight mb-8 ">
                                 How We Turned Local Clicks into New <br /> Dental Patients
                             </h2>
                             <p className='text-[16px]  font-normal'>
@@ -194,8 +195,8 @@ export default function Belowherosection() {
                         </div>
                         <div className='w-[100%] h-[2px] bg-gray-200 my-10'></div>
                         <div className='mt-5'>
-                            <h2 className="text-[35px] sm:text-[40px] md:text-[50px]  font-bold leading-tight mb-8 ">
-                                Cost-Efficient Advertising That Converts<br /> Local Leads
+                            <h2 className="text-[30px] sm:text-[40px] md:text-[50px]  font-bold leading-tight mb-8 ">
+                                Cost-Efficient Advertising That Converts<br  className='hidden md:block'/> Local Leads
                             </h2>
                             <p className='text-[16px]  mt-10'>
                                 In this performance view, we’re seeing the <strong>monthly summary </strong>of our Google Ads campaign for <strong>Trusting Dental Group</strong>. With <strong>377 total clicks and 99.00 conversions</strong>, we achieved a <strong>strong 27% conversion rate</strong>. That means nearly 1 in 3 clicks resulted in a meaningful customer action, whether that was calling, visiting the website, or getting directions to the clinic.
@@ -237,7 +238,7 @@ export default function Belowherosection() {
                         <div className='w-[100%] h-[2px] bg-gray-200 my-10'></div>
                         <div className='mt-10'>
 
-                            <h2 className="text-[35px] sm:text-[40px] md:text-[50px]  font-bold leading-tight mb-8 ">
+                            <h2 className="text-[30px] sm:text-[40px] md:text-[50px]  font-bold leading-tight mb-8 ">
                                 Local Ads Performance: Smart Data, Real Growth
                             </h2>
                             <p className='text-[16px]  mt-10'>
@@ -276,7 +277,7 @@ export default function Belowherosection() {
                             <Image src={image_seven} className='shadow-xl' alt='CLICK FIRST SMM CASE STUDY' />
                         </div>
                         <div className='mt-10'>
-                            <div className='grid grid-cols-2 gap-5'>
+                            <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                                 {
                                     CardSection('High-Performing Campaigns', 'Our tailored Emergency Campaign stood out with a remarkable 40% click-through rate and over 50 quality conversions, helping new patients find immediate care when they needed it most. ')
                                 }
@@ -296,10 +297,10 @@ export default function Belowherosection() {
                                 <div className='bg-[#f6f6f6] py-[30px] px-[50px]'>
                                     <ul className='flex flex-col'>
                                         <li className='flex gap-5 items-center'>
-                                           
+
                                             <div><p>We also used: </p></div>
                                         </li>
-                                        
+
                                         <li className='flex gap-5 items-center'>
                                             <div className='bg-primary h-[10px] w-[10px] rounded-full'></div>
                                             <div><p><strong>Custom audience lists</strong> (past website visitors and phone call audiences) </p></div>
@@ -312,15 +313,49 @@ export default function Belowherosection() {
                                             <div className='bg-primary h-[10px] w-[10px] rounded-full'></div>
                                             <div><p><strong>Ad schedule optimization</strong> based on peak call/request times </p></div>
                                         </li>
-                                        
+
                                     </ul>
                                 </div>
 
                             </div>
-                            
+
                             <p className='text-[16px]  mt-10'>
                                 The result? <strong>Maximum exposure with minimal ad waste</strong>, allowing us to convert a larger percentage of ad views into high-value patients.
                             </p>
+                        </div>
+                        <div className="mt-10">
+                            <h2 className="text-[30px] sm:text-[40px] md:text-[50px]  font-bold leading-tight mb-8 ">
+                                Local Ads Performance: Smart Data, Real Growth
+                            </h2>
+                            <p className='text-[16px]  mt-5'>
+                                Here, we zoom in on the conversion performance and audience insights that helped us refine the campaign over time. Google’s Performance Max dashboard shows that our conversion rate held steady at nearly 30%, driven by precise bidding and content testing.
+                                <br />
+                                <br />
+                                Key insights:
+                            </p>
+                            <div className='grid grid-cols-1 md:grid-cols-2 mt-10 gap-5'>
+                                {
+                                    CardSection('Insight-Driven Decisions:', '<p>Phone calls from ads,<br/>Direction requests<br/>Website visits (including contact and appointment pages)</p>')
+                                }
+                                {
+                                    CardSection('High-converting ad placements:', '<p>Google Maps listings<br/>Mobile search ads during weekday afternoons<br/>YouTube pre-roll ads for local oral care tips</p>')
+                                }
+                                {
+                                    CardSection('Audience segments with the highest conversion rates:', '<p>Dental Emergency Seekers<br/>Mobile Users in a 12-mile radius of the clinic<br/>Returning Visitors (remarketing audience)</p>')
+                                }
+                            </div>
+                            <div className='mt-10'>
+                                <Image src={TDGLast} className='shadow-xl' alt='CLICK FIRST SMM CASE STUDY' />
+                            </div>
+                            <div className='mt-10'>
+
+                                <p className='text-[16px]  mt-10'>
+                                    Additionally, our <strong>budget pacing</strong> was strategically distributed to match high-performing days and hours, which improved <strong>cost-efficiency per lead.</strong>
+                                </p>
+                                <p className='text-[16px]  mt-5'>
+                                    This detailed view shows how we didn’t just launch ads, we analyzed <strong>every touchpoint</strong>, tracked behaviors, and refined continuously. It’s this granular approach that turned a local dental campaign into a <strong>high-ROI success story</strong>.
+                                </p>
+                            </div>
                         </div>
 
                     </div>
@@ -333,16 +368,16 @@ export default function Belowherosection() {
 
 function CardSection(Title, description) {
     return <>
-        <div className='bg-[#f6f6f6] py-[30px] px-[50px]'>
+        <div className='bg-[#f6f6f6]  py-[10px] px-[25px] md:py-[30px] md:px-[50px]'>
             <ul className='flex flex-col'>
                 <li className='flex gap-5 items-center'>
                     <div className='bg-primary h-[10px] w-[10px] rounded-full'></div>
                     <div><p><strong>{Title}</strong> </p></div>
                 </li>
                 <li className='flex gap-5 items-start ml-1'>
-                    <Image src={svg_path_one} className='shadow-xl' alt='CLICK FIRST SMM CASE STUDY' />
+                    <Image src={svg_path_one}  alt='CLICK FIRST SMM CASE STUDY' />
                     <ul className='flex flex-col mt-3'>
-                        <li>{description}</li>
+                        <li dangerouslySetInnerHTML={{ __html: description }} />
                     </ul>
                 </li>
             </ul>

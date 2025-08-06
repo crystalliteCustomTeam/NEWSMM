@@ -9,12 +9,12 @@ import { CTA } from "@/components"
 export default function Hero() {
     return (
         <section>
-            <div className="relative z-10 bg-primary py-[80px] lg:pt-[200px]">
+            <div className="relative z-10 bg-primary  py-[100px]  lg:pt-[200px]">
                 <Image src={bg} alt="Click First SMM" priority fill sizes="100vw" className="object-cover -z-10" />
                 <div className="container relative z-10">
                     <div className="text-center text-white max-w-[750px] lg:max-w-[1050px] mx-auto mb-7">
-                        <h2 className="text-[25px] md:text-[30px] lg:text-[32px] xl:text-[40px] 2xl:text-[50px] font-semibold text-white leading-snug max-w-[380px] mx-auto md:max-w-full">
-                            Tustin Dental Group Case Study<br />
+                        <h2 className="text-[25px] md:text-[30px] lg:text-[32px] xl:text-[40px] 2xl:text-[50px] font-semibold text-white leading-snug max-w-[380px] mx-auto md:max-w-full mt-5 md:mt-0">
+                            Tustin Dental Group Case Study<br className="hidden md:block"/>
 How we generated 400% ROI
                         </h2>
                         <div className="py-5"></div>

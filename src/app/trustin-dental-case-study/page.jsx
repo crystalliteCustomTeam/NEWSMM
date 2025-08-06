@@ -9,11 +9,11 @@ export default function Page() {
             <Hero />
             <Belowherosection />
            
-            <Content1 />
-            <Content2 />
-            <Creations wrapperCss="pt-[50px] pb-[100px]" />
+            {/* <Content1 /> */}
+            {/* <Content2 /> */}
+            {/* <Creations wrapperCss="pt-[50px] pb-[100px]" /> */}
             <Industries />
-            <Packages wrapperCss="pt-[100px] pb-[150px]" />
+            {/* <Packages wrapperCss="pt-[100px] pb-[150px]" /> */}
             <CustomizeBanner />
             <FAQs />
             <ChatBanner />
