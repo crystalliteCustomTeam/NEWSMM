@@ -657,14 +657,14 @@ export default function Belowherosection() {
 
         <div className="relative z-10">
           <div className="container">
-            <div className="grid grid-cols-1 lg:w-[90%] w-full">
+            <div className="grid grid-cols-1 lg:w-[70%] w-full">
               <div className="text-white">
                 <h2 className="text-[35px] sm:text-[40px] md:text-[35px] font-semibold leading-tight mb-5 text-left">
                   Final Results: From Local to Leading in Just Months
                 </h2>
                 <p className="text-[16px] font-light leading-normal">
                   Tustin Dental Group saw real, measurable growth after just a
-                  few months of working with our team. With a fully optimized
+                  few months of working with our team.  With a fully optimized
                   digital presence and performance-driven ad strategy, they
                   became a top choice for dental patients in Tustin.
                   <br />
