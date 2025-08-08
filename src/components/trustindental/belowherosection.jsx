@@ -1,5 +1,6 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import { useState } from "react";
 import image_one from "media/casestudy/RAF_0084.png";
 import image_two from "media/casestudy/casestudy-1_1.png";
 import image_three from "media/casestudy/casestudy-1_2.png";
@@ -14,6 +15,9 @@ import bgImgBlack from "media/casestudy/bg-Img1.png";
 import { CTA } from "..";
 
 export default function Belowherosection() {
+  const [hover1, setHover1] = useState(false);
+  const [hover2, setHover2] = useState(false);
+  const [hover3, setHover3] = useState(false);
   return (
     <>
       <section className="py-10">
@@ -34,20 +38,85 @@ export default function Belowherosection() {
                 The Results
               </h3>
               <div className="flex flex-col gap-4 mt-5 md:mt-0">
-                <div className="bg-primary w-[100%] h-[100px] flex justify-center items-center">
-                  <h3 className="text-white  text-[20px] md:text-[30px] font-bold text-center">
+                {/* Box 1 */}
+                <div
+                  className="bg-primary w-full h-[100px] flex justify-center items-center cursor-pointer relative"
+                  onMouseEnter={() => setHover1(true)}
+                  onMouseLeave={() => setHover1(false)}
+                >
+                  <h3
+                    className={`text-white text-[20px] md:text-[30px] font-semibold text-center transition-all duration-500 ease-in-out transform ${
+                      hover1
+                        ? "opacity-0 -translate-y-2"
+                        : "opacity-100 translate-y-0"
+                    } absolute`}
+                  >
                     400%+ ROI & ROAS
                   </h3>
+
+                  <p
+                    className={`text-white text-[14px] md:text-[14px] font-normal text-center transition-all duration-500 ease-in-out transform ${
+                      hover1
+                        ? "opacity-100 translate-y-0"
+                        : "opacity-0 translate-y-2"
+                    }`}
+                  >
+                    We built the foundation for success by fully verifying their business through Google, a critical step in unlocking advanced ad placements and trust signals.
+                  </p>
                 </div>
-                <div className="bg-primary w-[100%] h-[100px] flex justify-center items-center">
-                  <h3 className="text-white text-[20px] md:text-[30px] font-bold text-center">
+
+                {/* Box 2 */}
+                <div
+                  className="bg-primary w-full h-[100px] flex justify-center items-center cursor-pointer relative"
+                  onMouseEnter={() => setHover2(true)}
+                  onMouseLeave={() => setHover2(false)}
+                >
+                  <h3
+                    className={`text-white text-[20px] md:text-[30px] font-semibold text-center transition-all duration-500 ease-in-out transform ${
+                      hover2
+                        ? "opacity-0 -translate-y-2"
+                        : "opacity-100 translate-y-0"
+                    } absolute`}
+                  >
                     120+ New Patient Inquiries Generated
                   </h3>
+
+                  <p
+                    className={`text-white text-[14px] md:text-[14px] font-normal text-center transition-all duration-500 ease-in-out transform ${
+                      hover2
+                        ? "opacity-100 translate-y-0"
+                        : "opacity-0 translate-y-2"
+                    }`}
+                  >
+                    The screenshot shows their Google Business verification dashboard, where every requirement — from liability insurance and background checks to business profile and reviews
+                  </p>
                 </div>
-                <div className="bg-primary w-[100%] h-[100px] flex justify-center items-center">
-                  <h3 className="text-white text-[20px] md:text-[30px] font-bold text-center">
-                    Ranked in the Top 3 on Google Maps{" "}
+
+                {/* Box 3 */}
+                <div
+                  className="bg-primary w-full h-[100px] flex justify-center items-center cursor-pointer relative"
+                  onMouseEnter={() => setHover3(true)}
+                  onMouseLeave={() => setHover3(false)}
+                >
+                  <h3
+                    className={`text-white text-[20px] md:text-[30px] font-semibold text-center transition-all duration-500 ease-in-out transform ${
+                      hover3
+                        ? "opacity-0 -translate-y-2"
+                        : "opacity-100 translate-y-0"
+                    } absolute`}
+                  >
+                    Ranked in the Top 3 on Google Maps
                   </h3>
+
+                  <p
+                    className={`text-white text-[14px] md:text-[14px] font-normal text-center transition-all duration-500 ease-in-out transform ${
+                      hover3
+                        ? "opacity-100 translate-y-0"
+                        : "opacity-0 translate-y-2"
+                    }`}
+                  >
+                     We built the foundation for success by fully verifying their business through Google, a critical step in unlocking advanced ad placements and trust signals.
+                  </p>
                 </div>
               </div>
             </div>
@@ -664,7 +733,7 @@ export default function Belowherosection() {
                 </h2>
                 <p className="text-[16px] font-light leading-normal">
                   Tustin Dental Group saw real, measurable growth after just a
-                  few months of working with our team.  With a fully optimized
+                  few months of working with our team. With a fully optimized
                   digital presence and performance-driven ad strategy, they
                   became a top choice for dental patients in Tustin.
                   <br />
@@ -705,7 +774,6 @@ export default function Belowherosection() {
                     size="large"
                   />
                 </div>
-                
               </div>
             </div>
           </div>
