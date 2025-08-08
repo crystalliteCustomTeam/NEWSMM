@@ -11,6 +11,7 @@ import image_seven from "media/casestudy/TDG-Seven.jpg";
 import TDGLast from "media/casestudy/TDG-Last.jpg";
 import CaseStudy6 from "media/casestudy/casestudy-1_3.png";
 import bgImgBlack from "media/casestudy/bg-Img1.png";
+import { CTA } from "..";
 
 export default function Belowherosection() {
   return (
@@ -667,7 +668,8 @@ export default function Belowherosection() {
                   digital presence and performance-driven ad strategy, they
                   became a top choice for dental patients in Tustin.
                   <br />
-                  <br /><br />
+                  <br />
+                  <br />
                   Key Outcomes:
                 </p>
                 {""}
@@ -689,20 +691,21 @@ export default function Belowherosection() {
                   through the door, real growth, and real success.
                 </p>
 
-                <div className="flex font-sans items-center gap-5 mt-8">
-                  <a
-                    href="#"
-                    className="bg-primary h-[45px] flex items-center px-[50px] text-[16px] rounded-[5px] border-[1px] border-transparent hover:bg-transparent hover:text-white hover:border-white hover:border-[1px]  transition-all ease-in-out"
-                  >
-                    Talk To An Expert
-                  </a>
-                  <a
-                    href="#"
-                    className="bg-transparent h-[45px] flex items-center px-[50px] text-[16px] rounded-[5px] border-[1px] border-white hover:bg-white hover:text-primary hover:border-white hover:border-[1px]  transition-all ease-in-out"
-                  >
-                    Call Now: 346-299-2202
-                  </a>
+                <div className="mt-[20px] flex gap-5 justify-start">
+                  <CTA
+                    css="hover:bg-secondary border-none"
+                    theme="primary"
+                    text="Talk To An Expert"
+                    size="large"
+                  />
+                  <CTA
+                    css="hover:bg-primary bg-transparent border-[1px] border-[#fff] hover:border-none"
+                    theme=""
+                    text="Call Now: 346-299-2202"
+                    size="large"
+                  />
                 </div>
+                
               </div>
             </div>
           </div>
@@ -715,10 +718,10 @@ export default function Belowherosection() {
 function CardSection(Title, description) {
   return (
     <>
-      <div className="bg-[#f6f6f6]  py-[10px] px-[25px] md:py-[30px] md:px-[50px]">
+      <div className="bg-[#f6f6f6] hover:bg-white  transition-all ease-in-out py-[10px] px-[25px] md:py-[30px] md:px-[50px] group hover:shadow-sm">
         <ul className="flex flex-col">
           <li className="flex gap-5 items-center">
-            <div className="bg-primary h-[10px] w-[10px] rounded-full"></div>
+            <div className="bg-primary h-[10px] w-[10px] rounded-full group-hover:text-primary"></div>
             <div>
               <p>
                 <strong>{Title}</strong>{" "}
@@ -738,7 +741,7 @@ function CardSection(Title, description) {
 }
 function CardSectionTwo({ Title, descriptionArray }) {
   return (
-    <div className="bg-[#fff] py-[10px] px-[25px] md:py-[30px] md:px-[50px] xl:py-[10px] xl:px-[30px]">
+    <div className="bg-[#fff] hover:bg-[#efefef] transition-all ease-in-out py-[10px] px-[25px] md:py-[30px] md:px-[50px] xl:py-[30px] xl:px-[30px]">
       <ul className="flex flex-col">
         {/* Title with solid blue dot */}
         <li className="flex gap-3 items-center">
