@@ -9,9 +9,10 @@ import svg_path_one from "media/casestudy/Path-One.png";
 import image_five from "media/casestudy/tdg-six.png";
 import image_five_sub from "media/casestudy/tdg-six-sub.png";
 import image_six from "media/casestudy/casestudy-1_4.png";
-import image_seven from "media/casestudy/TDG-Seven.jpg";
-import TDGLast from "media/casestudy/TDG-Last.jpg";
+import image_seven from "media/casestudy/TDG-Seven.png";
+import TDGLast from "media/casestudy/TDG-Last.png";
 import CaseStudy6 from "media/casestudy/casestudy-1_3.png";
+import CaseStudy6_1 from "media/casestudy/casestudy-1_3_1.png";
 import bgImgBlack from "media/casestudy/bg-Img1.png";
 import { CTA } from "..";
 
@@ -24,14 +25,14 @@ export default function Belowherosection() {
       <section className="py-10">
         <div className="container">
           <h2 className="text-[35px] sm:text-[40px] md:text-[45px] lg:text-[50px] xl:text-[50px] font-bold leading-tight mb-8 text-center">
-          How We Helped Tustin Dental Office <br />Achieve 300% ROI
+            How We Helped Tustin Dental Office <br />Achieve 300% ROI
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
             <div>
               <Image
                 src={image_one}
                 className="shadow-xl"
-                alt="Click First SMM Case Study"
+                alt=""
               />
             </div>
             <div className="flex flex-col justify-between">
@@ -46,21 +47,19 @@ export default function Belowherosection() {
                   onMouseLeave={() => setHover1(false)}
                 >
                   <h3
-                    className={`text-white text-[20px] md:text-[30px] font-semibold text-center transition-all duration-500 ease-in-out transform ${
-                      hover1
+                    className={`text-white text-[20px] md:text-[30px] font-semibold text-center transition-all duration-500 ease-in-out transform ${hover1
                         ? "opacity-0 -translate-y-2"
                         : "opacity-100 translate-y-0"
-                    } absolute`}
+                      } absolute`}
                   >
                     300%+ ROI & ROAS
                   </h3>
 
                   <p
-                    className={`text-white text-[14px] md:text-[14px] font-normal text-center transition-all duration-500 ease-in-out transform ${
-                      hover1
+                    className={`text-white text-[14px] md:text-[14px] font-normal text-center transition-all duration-500 ease-in-out transform ${hover1
                         ? "opacity-100 translate-y-0"
                         : "opacity-0 translate-y-2"
-                    }`}
+                      }`}
                   >
                     We built the foundation for success by fully verifying their business through Google, a critical step in unlocking advanced ad placements and trust signals.
                   </p>
@@ -73,21 +72,19 @@ export default function Belowherosection() {
                   onMouseLeave={() => setHover2(false)}
                 >
                   <h3
-                    className={`text-white text-[20px] md:text-[30px] font-semibold text-center transition-all duration-500 ease-in-out transform ${
-                      hover2
+                    className={`text-white text-[20px] md:text-[30px] font-semibold text-center transition-all duration-500 ease-in-out transform ${hover2
                         ? "opacity-0 -translate-y-2"
                         : "opacity-100 translate-y-0"
-                    } absolute`}
+                      } absolute`}
                   >
                     120+ New Patient Inquiries Generated
                   </h3>
 
                   <p
-                    className={`text-white text-[14px] md:text-[14px] font-normal text-center transition-all duration-500 ease-in-out transform ${
-                      hover2
+                    className={`text-white text-[14px] md:text-[14px] font-normal text-center transition-all duration-500 ease-in-out transform ${hover2
                         ? "opacity-100 translate-y-0"
                         : "opacity-0 translate-y-2"
-                    }`}
+                      }`}
                   >
                     The screenshot shows their Google Business verification dashboard, where every requirement — from liability insurance and background checks to business profile and reviews
                   </p>
@@ -100,23 +97,21 @@ export default function Belowherosection() {
                   onMouseLeave={() => setHover3(false)}
                 >
                   <h3
-                    className={`text-white text-[20px] md:text-[30px] font-semibold text-center transition-all duration-500 ease-in-out transform ${
-                      hover3
+                    className={`text-white text-[20px] md:text-[30px] font-semibold text-center transition-all duration-500 ease-in-out transform ${hover3
                         ? "opacity-0 -translate-y-2"
                         : "opacity-100 translate-y-0"
-                    } absolute`}
+                      } absolute`}
                   >
                     Ranked in the Top 3 on Google Maps
                   </h3>
 
                   <p
-                    className={`text-white text-[14px] md:text-[14px] font-normal text-center transition-all duration-500 ease-in-out transform ${
-                      hover3
+                    className={`text-white text-[14px] md:text-[14px] font-normal text-center transition-all duration-500 ease-in-out transform ${hover3
                         ? "opacity-100 translate-y-0"
                         : "opacity-0 translate-y-2"
-                    }`}
+                      }`}
                   >
-                     We built the foundation for success by fully verifying their business through Google, a critical step in unlocking advanced ad placements and trust signals.
+                    We built the foundation for success by fully verifying their business through Google, a critical step in unlocking advanced ad placements and trust signals.
                   </p>
                 </div>
               </div>
@@ -296,7 +291,7 @@ export default function Belowherosection() {
                     <Image
                       src={svg_path_one}
                       className="shadow-xl"
-                      alt="CLICK FIRST SMM CASE STUDY"
+                      alt="Tustin Dental Office Case Study Click First SMM"
                     />
                     <ul className="flex flex-col mt-3">
                       <li>Dentist near me</li>
@@ -310,7 +305,7 @@ export default function Belowherosection() {
               <div className="mt-10">
                 <Image
                   src={image_four}
-                  alt="CLICK FIRST SMM CASE STUDY"
+                  alt="Tustin Dental Office Case Study Click First SMM"
                   className="shadow-xl"
                 />
               </div>
@@ -414,19 +409,19 @@ export default function Belowherosection() {
               </div>
 
               <div className="mt-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                <Image
-                  src={image_five_sub}
-                  className="shadow-xl"
-                  alt="CLICK FIRST SMM CASE STUDY"
-                />
-                <Image
-                  src={image_five}
-                  className="shadow-xl"
-                  alt="CLICK FIRST SMM CASE STUDY"
-                />
+                <div className="grid grid-cols-1  gap-5">
+                  <Image
+                    src={image_five_sub}
+                    className="shadow-xl"
+                    alt="Tustin Dental Office Case Study Click First SMM"
+                  />
+                  <Image
+                    src={image_five}
+                    className="shadow-xl"
+                    alt="Tustin Dental Office Case Study Click First SMM"
+                  />
                 </div>
-                
+
               </div>
               <div className="w-[100%] h-[2px] bg-gray-200 my-10"></div>
               <div className="mt-10">
@@ -454,11 +449,19 @@ export default function Belowherosection() {
                 </p>
               </div>
               <div className="mt-10">
-                <Image
-                  src={CaseStudy6}
-                  className="shadow-xl"
-                  alt="CLICK FIRST SMM CASE STUDY"
-                />
+                <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
+                  <Image
+
+                    src={CaseStudy6}
+                    className="shadow-xl col-span-12 md:col-span-12"
+                    alt="Tustin Dental Office Case Study Click First SMM"
+                  />
+                  <Image
+                    src={CaseStudy6_1}
+                    className="shadow-xl col-span-12 md:col-span-12"
+                    alt="Tustin Dental Office Case Study Click First SMM"
+                  />
+                </div>
               </div>
               <div className="w-[100%] h-[2px] bg-gray-200 my-10"></div>
               <div className="mt-5">
@@ -519,7 +522,7 @@ export default function Belowherosection() {
                 <Image
                   src={image_six}
                   className="shadow-xl"
-                  alt="CLICK FIRST SMM CASE STUDY"
+                  alt="Tustin Dental Office Case Study Click First SMM"
                 />
               </div>
               <div className="w-[100%] h-[2px] bg-gray-200 my-10"></div>
@@ -579,7 +582,7 @@ export default function Belowherosection() {
                 <Image
                   src={image_seven}
                   className="shadow-xl"
-                  alt="CLICK FIRST SMM CASE STUDY"
+                  alt="Tustin Dental Office Case Study Click First SMM"
                 />
               </div>
               <div className="mt-10">
@@ -605,7 +608,7 @@ export default function Belowherosection() {
                     "Insight-Driven Decisions",
                     "With over 80% of conversions coming from mobile devices, we shifted focus to mobile-optimized ads and landing pages, meeting patients where they are and making it easier for them to book appointments on the go."
                   )}
-                  <div className="bg-[#f6f6f6] py-[30px] px-[50px]">
+                  <div className="bg-white py-[30px] px-[50px]">
                     <ul className="flex flex-col">
                       <li className="flex gap-5 items-center">
                         <div>
@@ -698,7 +701,7 @@ export default function Belowherosection() {
                   <Image
                     src={TDGLast}
                     className="shadow-xl"
-                    alt="CLICK FIRST SMM CASE STUDY"
+                    alt="Tustin Dental Office Case Study Click First SMM"
                   />
                 </div>
                 <div className="mt-10">
@@ -805,7 +808,7 @@ function CardSection(Title, description) {
             </div>
           </li>
           <li className="flex gap-5 items-start ml-1">
-            <Image src={svg_path_one} alt="CLICK FIRST SMM CASE STUDY" />
+            <Image src={svg_path_one} alt="Tustin Dental Office Case Study Click First SMM" />
             <ul className="flex flex-col mt-3">
               <li dangerouslySetInnerHTML={{ __html: description }} />
             </ul>
@@ -824,7 +827,7 @@ function CardSectionTwo({ Title, descriptionArray }) {
           <div className="bg-[#2F49D1] h-[10px] w-[10px] rounded-full"></div>
           <p className="font-semibold text-black">{Title}</p>
         </li>
-        <Image src={svg_path_one} alt="CLICK FIRST SMM CASE STUDY" />
+        <Image src={svg_path_one} alt="Tustin Dental Office Case Study Click First SMM" />
         {/* Bullet list with outlined blue circles */}
         <li className="-mt-3 ml-12">
           <ul className="flex flex-col gap-3">
