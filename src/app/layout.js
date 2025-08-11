@@ -37,7 +37,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
 
 
-      <GoogleTagManager gtmId="GTM-KQFVWWGF" />
+      {/* <GoogleTagManager gtmId="GTM-KQFVWWGF" /> OLD GTM */}
+      <GoogleTagManager gtmId="G-6HFTDV18QK" />
       <GoogleTagManager gtmId="AW-11394746459" />
       <Script id="Chat">
         {`

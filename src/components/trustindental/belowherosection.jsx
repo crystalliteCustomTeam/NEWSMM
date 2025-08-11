@@ -2,11 +2,12 @@
 import Image from "next/image";
 import { useState } from "react";
 import image_one from "media/casestudy/RAF_0084.png";
-import image_two from "media/casestudy/casestudy-1_1.png";
+import image_two from "media/casestudy/casestudy-1_1.jpg";
 import image_three from "media/casestudy/casestudy-1_2.png";
 import image_four from "media/casestudy/TDG-Three.png";
 import svg_path_one from "media/casestudy/Path-One.png";
 import image_five from "media/casestudy/tdg-six.png";
+import image_five_sub from "media/casestudy/tdg-six-sub.png";
 import image_six from "media/casestudy/casestudy-1_4.png";
 import image_seven from "media/casestudy/TDG-Seven.jpg";
 import TDGLast from "media/casestudy/TDG-Last.jpg";
@@ -23,7 +24,7 @@ export default function Belowherosection() {
       <section className="py-10">
         <div className="container">
           <h2 className="text-[35px] sm:text-[40px] md:text-[45px] lg:text-[50px] xl:text-[50px] font-bold leading-tight mb-8 text-center">
-            How We Helped Tustin Dental Group <br /> Achieve 400% ROI
+          How We Helped Tustin Dental Office <br />Achieve 300% ROI
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
             <div>
@@ -51,7 +52,7 @@ export default function Belowherosection() {
                         : "opacity-100 translate-y-0"
                     } absolute`}
                   >
-                    400%+ ROI & ROAS
+                    300%+ ROI & ROAS
                   </h3>
 
                   <p
@@ -413,11 +414,19 @@ export default function Belowherosection() {
               </div>
 
               <div className="mt-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <Image
+                  src={image_five_sub}
+                  className="shadow-xl"
+                  alt="CLICK FIRST SMM CASE STUDY"
+                />
                 <Image
                   src={image_five}
                   className="shadow-xl"
                   alt="CLICK FIRST SMM CASE STUDY"
                 />
+                </div>
+                
               </div>
               <div className="w-[100%] h-[2px] bg-gray-200 my-10"></div>
               <div className="mt-10">
@@ -440,7 +449,7 @@ export default function Belowherosection() {
                   <strong>Google Business Profile</strong>, verifying them as a{" "}
                   <strong>Google Trusted Dentist</strong>, and launching
                   targeted Smart Campaigns, we helped drive real local traffic
-                  and qualified leads, leading to a <strong>400% ROI</strong> in
+                  and qualified leads, leading to a <strong>300% ROI</strong> in
                   just a few months.
                 </p>
               </div>
@@ -741,7 +750,7 @@ export default function Belowherosection() {
                   <br />
                   Key Outcomes:
                 </p>
-                {""}
+
 
                 <ul className="my-5">
                   {[
@@ -769,7 +778,6 @@ export default function Belowherosection() {
                   />
                   <CTA
                     css="hover:bg-primary bg-transparent border-[1px] border-[#fff] hover:border-none"
-                    theme=""
                     text="Call Now: 346-299-2202"
                     size="large"
                   />
