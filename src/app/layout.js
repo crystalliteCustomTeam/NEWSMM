@@ -15,7 +15,7 @@ export const metadata = {
     canonical: '/',
   },
   other: {
-    'google-site-verification': 'rwcdux08MOOJvI9ELOdkhRW2nJ_3ocjjC1qvA8o1hhk',
+    'google-site-verification': '',
   },
   robots: {
     index: true,
