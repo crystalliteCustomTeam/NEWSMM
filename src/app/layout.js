@@ -36,7 +36,16 @@ export default function RootLayout({ children }) {
 
       {/* <GoogleTagManager gtmId="GTM-KQFVWWGF" /> OLD GTM */}
       <GoogleTagManager gtmId="G-6HFTDV18QK" />
-      <GoogleTagManager gtmId="AW-11394746459" />
+      {/* <GoogleTagManager gtmId="AW-11394746459" /> */}
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11394746459"></Script>
+      <Script id="googletag">
+        {`
+        window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11394746459');
+        `}
+      </Script>
       <Script id="Chat">
         {`
     window.__lc = window.__lc || {};
