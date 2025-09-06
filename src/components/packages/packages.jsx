@@ -13,7 +13,7 @@ export default function Packages({ wrapperCss = "py-[100px]" }) {
         <section>
             <div className={`${wrapperCss}`}>
                 <div className="container">
-                    <h2 className=" mx-auto text-[25px] sm:text-[35px] md:text-[34px] lg:text-[50px] xl:text-[60px] leading-[1.2em] font-black tracking-[-2px] text-center mb-[50px] text-black">
+                    <h2 className=" mx-auto text-[35px] sm:text-[35px] md:text-[34px] lg:text-[50px] xl:text-[60px] leading-[1.2em] font-black tracking-[-2px] text-center mb-[50px] text-black">
                         SMM Packages That Meet <br className="lg:block hidden"/>
 Your Budgets and Goals!
                     </h2>
@@ -30,7 +30,7 @@ Your Budgets and Goals!
                         {
                             data && data.map(({ type, packages }, i) => (
                                 <TabsContent key={i} value={type}>
-                                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:gap-5 2xl:gap-10 max-w-[450px] lg:max-w-full mx-auto pt-10 lg:pt-0">
+                                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 lg:gap-5 2xl:gap-10 max-w-[450px] md:max-w-full mx-auto pt-10 lg:pt-0">
                                         {
                                             packages && packages.map(({ name, note, price, when, list }, i) => (
                                                 <div className="text-black bg-[#F5F5F5] [&:nth-child(2)]:bg-[#351a4b] rounded-2xl [&:nth-child(2)]:text-white [&:nth-child(2)_p]:text-white [&:nth-child(2)_p]:border-white [&:nth-child(2)_ul]:text-white relative lg:top-10 [&:nth-child(2)]:top-0 [&:nth-child(2)_ul_li_img]:brightness-0 [&:nth-child(2)_ul_li_img]:invert [&:nth-child(2)_ul::-webkit-scrollbar-thumb]:bg-secondary [&:nth-child(2)_a]:bg-secondary [&:nth-child(2)_a]:hover:bg-black [&:nth-child(1)]:before:content-[url('/packages/forcard1.png')] [&:nth-child(1)]:before:absolute [&:nth-child(1)]:before:left-0 [&:nth-child(1)]:before:-top-[25px] [&:nth-child(1)]:before:animate-bounce-slow [&:nth-child(2)]:before:content-[url('/packages/forcard2.png')] [&:nth-child(2)]:before:absolute [&:nth-child(2)]:before:right-0 [&:nth-child(2)]:before:top-0 [&:nth-child(2)]:before:animate-bounce-slow [&:nth-child(3)]:before:content-[url('/packages/forcard3.png')] [&:nth-child(3)]:before:absolute [&:nth-child(3)]:before:right-0 [&:nth-child(3)]:before:-top-[25px] [&:nth-child(3)]:before:animate-bounce-slow" key={i}>

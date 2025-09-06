@@ -53,7 +53,8 @@ export default function Page() {
   const faqData = [
     {
       question: "Will Social Media Help My Business?",
-      answer: "Yes! Social Media Marketing provides your business exposure to targeted customers which helps build engagement – as well as leads and sales.",
+      answer:
+        "Yes! Social Media Marketing provides your business exposure to targeted customers which helps build engagement – as well as leads and sales.",
     },
     {
       question: "Can a Small Business Be Advertised Over Social Media?",
@@ -62,18 +63,21 @@ export default function Page() {
     },
     {
       question: "Is The Ad Budget Included In The Price?",
-      answer: "No. We only charge you for our service fee of the tenure you’d like to work with us. However, managing and optimizing the ads is included in all packages",
+      answer:
+        "No. We only charge you for our service fee of the tenure you’d like to work with us. However, managing and optimizing the ads is included in all packages",
     },
     {
       question: "Is There a Guarantee Involved?",
-      answer: "Yes, we have a month-on-month ROI guarantee that offers you guaranteed success over service tenure of 03 months and higher.",
+      answer:
+        "Yes, we have a month-on-month ROI guarantee that offers you guaranteed success over service tenure of 03 months and higher.",
     },
     {
       question: "Will I Receive Regular Updates?",
-      answer: "Yes! Each project gets a dedicated account manager who will keep you up to date on all the project activities as well as reports.",
+      answer:
+        "Yes! Each project gets a dedicated account manager who will keep you up to date on all the project activities as well as reports.",
     },
   ];
-const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
+  const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
   const services = [
     {
       title: "Facebook Advertising Services",
@@ -93,47 +97,52 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
     },
   ];
 
-
-
   const data = [
     {
-        item: "Why Choose Click First SMM?",
-        content: "Click First SMM is the leading Social & Digital Media Marketing Agency in Houston, Texas, renowned for delivering transformative results. With a powerhouse team of 500+ in-house professionals, we ensure that every project is handled with expertise, precision, and the highest level of dedication. Our commitment to excellence has made us a trusted partner for businesses seeking unparalleled growth and success in the digital landscape."
+      item: "Why Choose Click First SMM?",
+      content:
+        "Click First SMM is the leading Social & Digital Media Marketing Agency in Houston, Texas, renowned for delivering transformative results. With a powerhouse team of 500+ in-house professionals, we ensure that every project is handled with expertise, precision, and the highest level of dedication. Our commitment to excellence has made us a trusted partner for businesses seeking unparalleled growth and success in the digital landscape.",
     },
     {
-        item: "Do We Offer Marketing Audit & Consultation Service?",
-        content: "Yes, we offer a free marketing audit and consultation service. Our expert team provides a comprehensive analysis of your current marketing efforts, identifying areas of improvement and growth opportunities. This service is designed to give you a clear roadmap to success, tailored specifically to your business needs."
+      item: "Do We Offer Marketing Audit & Consultation Service?",
+      content:
+        "Yes, we offer a free marketing audit and consultation service. Our expert team provides a comprehensive analysis of your current marketing efforts, identifying areas of improvement and growth opportunities. This service is designed to give you a clear roadmap to success, tailored specifically to your business needs.",
     },
     {
-        item: "What Services Do We Offer?",
-        content: "We offer a full suite of services, including Social Media Marketing, Digital Marketing, Branding, SEO, Paid Advertising, Content Creation, Influencer Marketing, Video Production, and more. Our comprehensive offerings are designed to cover every aspect of your digital presence, helping you achieve sustained growth and a strong market position."
+      item: "What Services Do We Offer?",
+      content:
+        "We offer a full suite of services, including Social Media Marketing, Digital Marketing, Branding, SEO, Paid Advertising, Content Creation, Influencer Marketing, Video Production, and more. Our comprehensive offerings are designed to cover every aspect of your digital presence, helping you achieve sustained growth and a strong market position.",
     },
     {
-        item: "How Much Do We Charge for a Branding Package?",
-        content: "The cost of our branding packages varies depending on the scope and complexity of the project. We offer customized packages tailored to your business’s unique needs, ensuring you receive the best value for your investment. Please contact us for a detailed quote based on your specific requirements. Click here to see our complete packages."
+      item: "How Much Do We Charge for a Branding Package?",
+      content:
+        "The cost of our branding packages varies depending on the scope and complexity of the project. We offer customized packages tailored to your business’s unique needs, ensuring you receive the best value for your investment. Please contact us for a detailed quote based on your specific requirements. Click here to see our complete packages.",
     },
     {
-        item: "Do We Outsource Our Projects?",
-        content: "No, we do not outsource our projects. All work is completed by our highly skilled in-house team of 500+ professionals, ensuring consistent quality, security, and the ability to meet our clients' specific needs with full control over every aspect of the project."
+      item: "Do We Outsource Our Projects?",
+      content:
+        "No, we do not outsource our projects. All work is completed by our highly skilled in-house team of 500+ professionals, ensuring consistent quality, security, and the ability to meet our clients' specific needs with full control over every aspect of the project.",
     },
     {
-        item: "What Industries Do We Work With?",
-        content: "We work with a diverse range of industries—over 50 in total—providing branding, marketing, and business growth strategies tailored to each sector. Our experience spans from small startups to large enterprises, ensuring that no matter the industry, we can drive impactful results."
+      item: "What Industries Do We Work With?",
+      content:
+        "We work with a diverse range of industries—over 50 in total—providing branding, marketing, and business growth strategies tailored to each sector. Our experience spans from small startups to large enterprises, ensuring that no matter the industry, we can drive impactful results.",
     },
     {
-        item: "How Long Will It Take to See Business Growth?",
-        content: "Business growth is a steady process that depends on several factors, including your industry, competition, and the budget tailored to your specific needs. While some results may be seen in the short term, true, sustainable growth typically takes time and consistent effort. We work with you to create a strategy that aligns with your goals and budget, ensuring gradual and reliable progress."
+      item: "How Long Will It Take to See Business Growth?",
+      content:
+        "Business growth is a steady process that depends on several factors, including your industry, competition, and the budget tailored to your specific needs. While some results may be seen in the short term, true, sustainable growth typically takes time and consistent effort. We work with you to create a strategy that aligns with your goals and budget, ensuring gradual and reliable progress.",
     },
     {
-        item: "Do We Offer Search Engine Optimization Services?",
-        content: "Yes, we offer expert SEO services designed to boost your online visibility, drive organic traffic, and improve your search engine rankings. Our SEO strategies are tailored to your business goals, ensuring that you attract the right audience and achieve long-term success in the digital space."
-    }
-]
+      item: "Do We Offer Search Engine Optimization Services?",
+      content:
+        "Yes, we offer expert SEO services designed to boost your online visibility, drive organic traffic, and improve your search engine rankings. Our SEO strategies are tailored to your business goals, ensuring that you attract the right audience and achieve long-term success in the digital space.",
+    },
+  ];
   return (
     <>
-
-    <section>
-        <div className="relative z-10 bg-white py-[100px] xl:py-[150px]">
+      <section>
+        <div className="relative z-10 bg-white py-[70px] xl:py-[150px]">
           <Image
             src={bg11}
             alt="Click First SMM"
@@ -143,14 +152,13 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
             className="w-full -z-10"
           />
           <div className="container relative z-10">
-            <div className="grid grid-cols-2 items-center">
+            <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-5">
               <div>
-                <h1 className="xl:text-[46px] text-[40px] tracking-[-3px] font-black leading-[50px] bg-[linear-gradient(to_right,_#da137c,_#f6ac35)] bg-clip-text text-transparent">
-                  Business Owned By You, But Driven By Our{" "}
-                  Social Media Marketing{" "}
-                  Services
+                <h1 className="xl:text-[46px] text-[40px] tracking-[-1px] font-black leading-[50px] bg-[linear-gradient(to_right,_#da137c,_#f6ac35)] bg-clip-text text-transparent">
+                  Business Owned By You, But Driven By Our Social Media
+                  Marketing Services
                 </h1>
-                <p className="text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal text-black mt-3">
+                <p className="xl:text-[14px] md:text-[14px] sm:text-[16px] leading-relaxed sm:leading-normal text-black mt-3">
                   Jumpto1 Social Media Marketing means more traffic, more calls
                   and more sales! We offer data-driven strategies and surprising
                   bottom-line results to fuel your business growth. Our SMM
@@ -165,22 +173,15 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
                     size="large"
                     text="Click To See Our Affordable Packages"
                   />
-                  {/* <CTA
-                    css="bg-black border-black hover:bg-secondary hover:border-secondary"
-                    theme="secondary"
-                    size="large"
-                    href="tel:833-666-6684 "
-                    text="Call Now: 833-666-6684 "
-                  /> */}
                 </div>
               </div>
               <div>
-                <div className="bg-white rounded-none shadow-2xl lg:p-10 p-5 w-[70%] mx-auto">
-                  <h3 className="text-[#1d1d1d] mb-5 text-[30px] 2xl:text-[35px] font-black text-center">
+                <div className="bg-white rounded-none shadow-2xl lg:p-10 p-5 2xl:w-[70%] lg:w-[90%] mx-auto">
+                  <h3 className="text-[#1d1d1d] mb-5 text-[24px] 2xl:text-[35px] font-black text-center capitalize">
                     Don’t be shy, say hi!
                   </h3>
                   {/* <FrontEndForm label={true} button="Increase My Sales" /> */}
-                  <LpFormContact/>
+                  <LpFormContact />
                 </div>
               </div>
             </div>
@@ -189,10 +190,10 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
       </section>
 
       <section>
-        <div className="py-[100px]">
+        <div className="xl:py-[100px] md:py-[70px] py-[50px]">
           <div className="container overflow-hidden">
             <div className="flex flex-col items-center">
-              <h2 className="font-black text-[50px] tracking-[-1px] text-[#262626] leading-[50px]">
+              <h2 className="font-black lg:text-[50px] text-[40px] tracking-[-1px] text-[#262626] leading-[50px] text-center capitalize">
                 Platform we working with
               </h2>
               <div className="mt-10 overflow-hidden">
@@ -213,10 +214,10 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
         <div className="pt-[50px]">
           <div className="container">
             <div className="flex flex-col items-center justify-center">
-              <h2 className="font-black text-[40px] leading-[40px] mb-[6px] tracking-[-1px] text-[#262626]">
+              <h2 className="font-black md:text-[40px] text-[35px] leading-9 md:leading-[45px] mb-[6px] tracking-[-1px] text-[#262626] text-center ">
                 Enter The Digital Era Now, Else Wait For Miracle To Happen!
               </h2>
-              <p className="text-black font-semibold text-[20px] tracking-[-1px] leading-[25px] mb-[6px] text-center w-[90%] mt-2">
+              <p className="text-black font-semibold text-[18px] md:text-[20px] tracking-[-1px] leading-[25px] mb-[6px] text-center w-[90%] mt-2">
                 Let’s face it. Whether you are new to the business arena or have
                 been running an enterprise for many years, there are certain
                 things you wish to have,{" "}
@@ -227,7 +228,7 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
               <h2 className="text-[25px] font-black text-[#f15d22] tracking-[-1px]">
                 Sales, Revenue, and Profit!
               </h2>
-              <h3 className="text-[20px] font-medium text-black tracking-[-1px]">
+              <h3 className="text-[20px] font-medium text-black tracking-[-1px] text-center">
                 And who brings these requisites?{" "}
                 <span className="font-bold text-[#f15d22] uppercase text-[25px]">
                   customers
@@ -238,10 +239,10 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
                 </span>
                 !
               </h3>
-              <h3 className="tracking-[-1px] text-[22px] font-black text-black underline  mb-[12px]">
+              <h3 className="tracking-[-1px] text-[22px] font-black text-black underline  mb-[12px] text-center">
                 But Are You Having Troubles In Getting Those Ideal Customers?
               </h3>
-              <h2 className="tracking-[-1px] text-[32px] font-black text-[#262626]">
+              <h2 className="tracking-[-1px] text-[32px] font-black text-[#262626] text-center">
                 And Is Your Business Facing These Problems?
               </h2>
               <div className="mt-5">
@@ -261,7 +262,9 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
                     BREAK
                   </span>{" "}
                   or{" "}
-                  <span className="text-[#f15d22] uppercase font-bold">MAKE</span>{" "}
+                  <span className="text-[#f15d22] uppercase font-bold">
+                    MAKE
+                  </span>{" "}
                   your brand.
                 </p>
                 <p className="leading-[30px] text-[23px] font-semibold text-black  mb-[2px] tracking-[-1px] text-center">
@@ -272,15 +275,16 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
                   with result-driven, thoughtfully curated SMM strategies and
                   top-tier Social Media Management personas. We fill your sales
                   funnel with unimaginable leads;
-                  <span className="text-[#f15d22] uppercase font-bold">OH</span>,
-                  we mean to say, with loyal customers!
+                  <span className="text-[#f15d22] uppercase font-bold">OH</span>
+                  , we mean to say, with loyal customers!
                 </p>
               </div>
               <div className="my-20">
                 <div className="flex justify-center items-center mb-[120px]">
-                  <h2 className="font-black text-[60px] tracking-[-1px] text-[#262626] text-center leading-none font-sans">
+                  <h2 className="font-black text-[35px] md:text-[40px] xl:text-[60px] tracking-[-1px] text-[#262626] text-center leading-none font-sans">
                     {" "}
-                    Don’t Take Our Word For It <br />
+                    Don’t Take Our Word For It{" "}
+                    <br className="lg:block hidden" />
                     Trust Our Customers.
                   </h2>
                 </div>
@@ -480,12 +484,14 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
       </section>
       <Packages />
       <section>
-        <div className="py-[100px] bg-[linear-gradient(180deg,_#351a4b,_#723389)]">
+        <div className="lg:py-[100px] py-[50px] bg-[linear-gradient(180deg,_#351a4b,_#723389)]">
           <div className="container">
-            <h2 className="text-[50px] text-center font-bold text-white tracking-[-1px] leading-[55px] mb-10">
-              Now Is The Time To Get Declared As Cream Of The Crop! <br />
+            <h2 className="xl:text-[50px] md:text-[40px] text-[35px] text-center font-bold text-white tracking-[-1px] xl:leading-[55px] leading-tight mb-10">
+              Now Is The Time To Get Declared As Cream Of The Crop!{" "}
+              <br className="lg:block hidden" />
               If You Are Perfect At Your{" "}
-              <span className="text-secondary font-black">Business</span>,<br />
+              <span className="text-secondary font-black">Business</span>,
+              <br className="lg:block hidden" />
               We Are Perfect In{" "}
               <span className="text-secondary font-black">Marketing!</span>
             </h2>
@@ -507,11 +513,10 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
           </div>
         </div>
       </section>
-
       <section>
         <div className="pt-[100px]">
           <div className="container">
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
               <div>
                 <h2 className="font-black text-[42px] tracking-[-2px] leading-[45px] text-[#262626] mb-[18px]">
                   Why Choose Us? Because We Help Your Business Get Bigger Every
@@ -540,45 +545,45 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
                   are:
                 </p>
               </div>
-              <div className="grid grid-cols-3 gap-5 items-center justify-center">
+              <div className="grid grid-cols-3 gap-5 items-center justify-center mt-5">
                 <div className="flex flex-col gap-5">
-                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center py-[50px] gap-5">
+                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
                     <CheckBadgeIcon className="w-10 group-hover:text-white" />
-                    <h2 className="font-semibold group-hover:text-white">
+                    <h2 className="font-semibold group-hover:text-white text-center lg:text-[16px] text-[12px]">
                       Conversion Driven
                     </h2>
                   </div>
-                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center py-[50px] gap-5">
+                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
                     <CircleStackIcon className="w-10 group-hover:text-white" />
-                    <h2 className="font-semibold group-hover:text-white">
+                    <h2 className="font-semibold group-hover:text-white text-center lg:text-[16px] text-[12px]">
                       Data-driven
                     </h2>
                   </div>
                 </div>
-                <div className="flex flex-col gap-5 -mt-32">
-                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center py-[50px] gap-5">
+                <div className="flex flex-col gap-5 md:-mt-32 -mt-16">
+                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
                     <CurrencyDollarIcon className="w-10 group-hover:text-white" />
-                    <h2 className="font-semibold group-hover:text-white">
+                    <h2 className="font-semibold group-hover:text-white text-center lg:text-[16px] text-[12px]">
                       Affordable
                     </h2>
                   </div>
-                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center py-[50px] gap-5">
+                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
                     <AdjustmentsVerticalIcon className="w-10 group-hover:text-white" />
-                    <h2 className="font-semibold group-hover:text-white">
+                    <h2 className="font-semibold group-hover:text-white text-center lg:text-[16px] text-[12px]">
                       Scalable
                     </h2>
                   </div>
                 </div>
                 <div className="flex flex-col gap-5">
-                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center py-[50px] gap-5">
+                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
                     <FunnelIcon className="w-10 group-hover:text-white" />
-                    <h2 className="font-semibold group-hover:text-white">
+                    <h2 className="font-semibold group-hover:text-white text-center lg:text-[16px] text-[12px]">
                       ROI-focused
                     </h2>
                   </div>
-                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center py-[50px] gap-5">
+                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
                     <GiftIcon className="w-10 group-hover:text-white" />
-                    <h2 className="font-semibold group-hover:text-white">
+                    <h2 className="font-semibold group-hover:text-white text-center lg:text-[16px] text-[12px]">
                       Outcome Guaranteed
                     </h2>
                   </div>
@@ -586,27 +591,24 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
               </div>
             </div>
             <div className="flex flex-col gap-5 items-center my-10">
-              <h3 className="text-[40px] text-center font-bold tracking-[-1px] leading-[55px]  capitalize bg-[linear-gradient(to_right,_#76358d_30%,_#e31a6e_40%,_#f18f39)] bg-clip-text text-transparent">
+              <h3 className="text-[25px] lg:text-[40px] text-center font-bold tracking-[-1px] lg:leading-[55px]  capitalize bg-[linear-gradient(to_right,_#76358d_30%,_#e31a6e_40%,_#f18f39)] bg-clip-text text-transparent">
                 Our proactive team carries a holistic approach to managing your
-                various{" "}
-                social media accounts.
-                We offer quantifiable results by making the most out of the
-                  different marketing choices
-                .
+                various social media accounts. We offer quantifiable results by
+                making the most out of the different marketing choices .
               </h3>
             </div>
           </div>
         </div>
       </section>
-      <section>
+            <section>
         <div className="pt-[50px]">
           <div className="container">
             <div className="flex flex-col gap-3 items-center">
-              <h2 className="font-black text-[42px] tracking-[-1px] leading-[45px] text-[#262626] mb-[18px] text-center">
-                Social Media Advertising Services <br />
+              <h2 className="font-black text-[35px] lg:text-[42px] tracking-[-1px] lg:leading-[45px] leading-tight text-[#262626] lg:mb-[18px] mb-3 text-center">
+                Social Media Advertising Services <br className="lg:block hidden"/>
                 That Grows Your Business
               </h2>
-              <p className="text-[20px] tracking-tight leading-tight text-[#262626] w-[70%] text-center">
+              <p className="lg:text-[20px] text-[16px] tracking-tight leading-tight text-[#262626] lg:w-[70%] w-[90%] text-center">
                 Business Boost? Watch Us Doing Social Media Ad Campaign. Rest
                 Assured, Working With Us Guarantees You More Clients For Your
                 Business!
@@ -616,14 +618,14 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
                 {services.map((service, index) => (
                   <div
                     key={index}
-                    className="group relative h-[350px] w-full bg-transparent border-[1px] text-white rounded-xl p-6 overflow-hidden transition-colors duration-500 hover:bg-[#351a4b] border-primary group-hover:border-black shine-effect shadow-xl"
+                    className="group relative md:h-[350px] h-[280px] w-full bg-transparent border-[1px] text-white rounded-xl p-6 overflow-hidden transition-colors duration-500 hover:bg-[#351a4b] border-primary group-hover:border-black shine-effect shadow-xl"
                   >
                     {/* CONTENT */}
                     <div className="flex flex-col items-start justify-start h-full transition-all duration-500 ease-out group-hover:translate-y-[10px]">
-                      <h2 className="text-2xl font-semibold text-black mb-3 leading-tight transition-all duration-500 ease-out group-hover:text-white">
+                      <h2 className="lg:text-2xl text-[18px] font-semibold text-black mb-3 leading-tight transition-all duration-500 ease-out group-hover:text-white">
                         {service.title}
                       </h2>
-                      <p className="text-sm leading-relaxed text-black transition-opacity duration-500 ease-out group-hover:opacity-90 group-hover:text-white">
+                      <p className="lg:text-sm text-[12px] leading-relaxed text-black transition-opacity duration-500 ease-out group-hover:opacity-90 group-hover:text-white">
                         {service.description}
                       </p>
                     </div>
@@ -644,7 +646,7 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
           </div>
         </div>
       </section>
-      <section>
+            <section>
         <div className="py-[50px] relative">
             <Image
             src={bg11}
@@ -655,9 +657,9 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
             className="w-full -z-10"
           />
           <div className="container">
-            <div className="grid grid-cols-2 gap-5 items-center">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-5 items-center">
               <div>
-                <h3 className="font-black text-[42px] tracking-[-2px] leading-[50px] text-[#262626] mb-[18px]">
+                <h3 className="font-black text-[35px] lg:text-[42px] tracking-[-2px] lg:leading-[50px] leading-tight text-[#262626] mb-[18px]">
                   Get your free <span className="text-[#351a4b]">30 minute</span>{" "}
                   strategy session with an experienced digital marketer valued
                   at <span className="text-[#351a4b]">$300USD.</span>
@@ -666,11 +668,11 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
                   css="hover:bg-black hover:text-white"
                   theme="lpSecondary"
                   size="large"
-                  text="Get My Free 30 Minutes Strategy Session"
+                  text="Get Free 30 Minutes Strategy Session"
                 />
               </div>
               <div >
-                <div className="group relative  bg-white rounded-lg shadow-2xl p-10 w-[70%] mx-auto">
+                <div className="group relative  bg-white rounded-lg shadow-2xl p-10 lg:w-[70%] w-[90%] mx-auto">
                     <h3 className="text-black mb-5 text-[35px] font-bold text-center capitalize">
                     Don’t be shy, say hi!
                   </h3>
@@ -682,7 +684,6 @@ const slides1 = [IMG1, IMG2, IMG3, IMG4, IMG5, IMG1, IMG2, IMG3, IMG4, IMG5];
           </div>
         </div>
       </section>
-
       <section>
         <div className="py-[100px]">
           <div className="container">
