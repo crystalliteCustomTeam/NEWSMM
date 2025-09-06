@@ -13,14 +13,15 @@ export default function Packages({ wrapperCss = "py-[100px]" }) {
         <section>
             <div className={`${wrapperCss}`}>
                 <div className="container">
-                    <h2 className="max-w-[1084px] mx-auto text-[25px] sm:text-[35px] md:text-[34px] lg:text-[45px] xl:text-[50px] leading-snug font-semibold text-center mb-[50px] text-black">
-                        <span className="text-primary">Quality Over Discounts</span> <br /> Elevate Your Social Media Presence Today!
+                    <h2 className=" mx-auto text-[25px] sm:text-[35px] md:text-[34px] lg:text-[50px] xl:text-[60px] leading-[1.2em] font-black tracking-[-2px] text-center mb-[50px] text-black">
+                        SMM Packages That Meet <br className="lg:block hidden"/>
+Your Budgets and Goals!
                     </h2>
                     <Tabs defaultValue="Annually">
                         <TabsList className="flex mb-[50px] gap-5 snap-x overflow-x-auto justify-start sm:justify-center pb-4 px-5">
                             {
                                 data && data.map(({ type }, i) => (
-                                    <TabsTrigger className="data-[state=active]:bg-[linear-gradient(180deg,_#f6ac0082,_#F6AC00)]  h-[50px] px-10 text-[16px] sm:text-[20px] inline-flex font-semibold text-black rounded-md transition-all duration-300 bg-[#F5F5F5] items-center snap-center shrink-0" key={i} value={type}>
+                                    <TabsTrigger className="data-[state=active]:bg-[linear-gradient(180deg,_#351a4b,_#723389)] data-[state=active]:text-white h-[50px] px-10 text-[16px] sm:text-[20px] inline-flex font-semibold text-black rounded-md transition-all duration-300 bg-[#F5F5F5] items-center snap-center shrink-0" key={i} value={type}>
                                         {type}
                                     </TabsTrigger>
                                 ))
@@ -32,7 +33,7 @@ export default function Packages({ wrapperCss = "py-[100px]" }) {
                                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:gap-5 2xl:gap-10 max-w-[450px] lg:max-w-full mx-auto pt-10 lg:pt-0">
                                         {
                                             packages && packages.map(({ name, note, price, when, list }, i) => (
-                                                <div className="text-black bg-[#F5F5F5] [&:nth-child(2)]:bg-primary rounded-2xl [&:nth-child(2)]:text-white [&:nth-child(2)_p]:text-white [&:nth-child(2)_p]:border-white [&:nth-child(2)_ul]:text-white relative lg:top-10 [&:nth-child(2)]:top-0 [&:nth-child(2)_ul_li_img]:brightness-0 [&:nth-child(2)_ul_li_img]:invert [&:nth-child(2)_ul::-webkit-scrollbar-thumb]:bg-secondary [&:nth-child(2)_a]:bg-secondary [&:nth-child(2)_a]:hover:bg-black [&:nth-child(1)]:before:content-[url('/packages/forcard1.png')] [&:nth-child(1)]:before:absolute [&:nth-child(1)]:before:left-0 [&:nth-child(1)]:before:-top-[25px] [&:nth-child(1)]:before:animate-bounce-slow [&:nth-child(2)]:before:content-[url('/packages/forcard2.png')] [&:nth-child(2)]:before:absolute [&:nth-child(2)]:before:right-0 [&:nth-child(2)]:before:top-0 [&:nth-child(2)]:before:animate-bounce-slow [&:nth-child(3)]:before:content-[url('/packages/forcard3.png')] [&:nth-child(3)]:before:absolute [&:nth-child(3)]:before:right-0 [&:nth-child(3)]:before:-top-[25px] [&:nth-child(3)]:before:animate-bounce-slow" key={i}>
+                                                <div className="text-black bg-[#F5F5F5] [&:nth-child(2)]:bg-[#351a4b] rounded-2xl [&:nth-child(2)]:text-white [&:nth-child(2)_p]:text-white [&:nth-child(2)_p]:border-white [&:nth-child(2)_ul]:text-white relative lg:top-10 [&:nth-child(2)]:top-0 [&:nth-child(2)_ul_li_img]:brightness-0 [&:nth-child(2)_ul_li_img]:invert [&:nth-child(2)_ul::-webkit-scrollbar-thumb]:bg-secondary [&:nth-child(2)_a]:bg-secondary [&:nth-child(2)_a]:hover:bg-black [&:nth-child(1)]:before:content-[url('/packages/forcard1.png')] [&:nth-child(1)]:before:absolute [&:nth-child(1)]:before:left-0 [&:nth-child(1)]:before:-top-[25px] [&:nth-child(1)]:before:animate-bounce-slow [&:nth-child(2)]:before:content-[url('/packages/forcard2.png')] [&:nth-child(2)]:before:absolute [&:nth-child(2)]:before:right-0 [&:nth-child(2)]:before:top-0 [&:nth-child(2)]:before:animate-bounce-slow [&:nth-child(3)]:before:content-[url('/packages/forcard3.png')] [&:nth-child(3)]:before:absolute [&:nth-child(3)]:before:right-0 [&:nth-child(3)]:before:-top-[25px] [&:nth-child(3)]:before:animate-bounce-slow" key={i}>
                                                     <div className="shadow-[0_0_30px_0_rgba(0,0,0,.2)] rounded-2xl py-[50px] px-[25px]">
                                                         <div className="text-center mb-[30px]">
                                                             <h4 className="text-[25px] xl:text-[30px] leading-tight font-semibold mb-3">
@@ -64,7 +65,7 @@ export default function Packages({ wrapperCss = "py-[100px]" }) {
                                                             ))}
                                                         </ul>
                                                         <div className="mt-[30px] text-center">
-                                                            <CTA css="hover:bg-secondary !px-10" theme="primary" text="Enquire Now" size="large" />
+                                                            <CTA css="hover:!bg-primary !px-10 rounded-none" theme="lpSecondary" text="Enquire Now" size="large" />
                                                         </div>
                                                     </div>
                                                 </div>

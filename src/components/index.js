@@ -17,6 +17,7 @@ import WhyChoose from "./whychoose"
 import FrontEndForm from "./frontendform"
 import WhyChoose2 from "./whychoose2"
 import Header from "./header/header"
+import LpFormContact from "./LpFormContact"
 
 // Export
-export { Awards, CTA, CaseStudy, AutoPlaySlider, AutoScrollSlider, Platfarm, Testimonials, Creations, Industries, Packages, CustomizeBanner, FAQs, ChatBanner, Footer, WhyChoose, FrontEndForm, WhyChoose2, Header }
+export { Awards, CTA, CaseStudy, AutoPlaySlider, AutoScrollSlider, Platfarm, Testimonials, Creations, Industries, Packages, CustomizeBanner, FAQs, ChatBanner, Footer, WhyChoose, FrontEndForm, WhyChoose2, Header, LpFormContact }
