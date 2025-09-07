@@ -142,7 +142,7 @@ export default function Page() {
   return (
     <>
       <section>
-        <div className="relative z-10 bg-white py-[70px] xl:py-[150px]">
+        <div className="relative z-10 bg-white py-[70px] xl:py-[90px]">
           <Image
             src={bg11}
             alt="Click First SMM"
@@ -591,7 +591,7 @@ export default function Page() {
               </div>
             </div>
             <div className="flex flex-col gap-5 items-center my-10">
-              <h3 className="text-[25px] lg:text-[40px] text-center font-bold tracking-[-1px] lg:leading-[55px]  capitalize bg-[linear-gradient(to_right,_#76358d_30%,_#e31a6e_40%,_#f18f39)] bg-clip-text text-transparent">
+              <h3 className="text-[25px] lg:text-[40px] text-center font-black tracking-[-1px] lg:leading-[48px]  capitalize bg-[linear-gradient(to_right,_#76358d_30%,_#e31a6e_40%,_#f18f39)] bg-clip-text text-transparent">
                 Our proactive team carries a holistic approach to managing your
                 various social media accounts. We offer quantifiable results by
                 making the most out of the different marketing choices .

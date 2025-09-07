@@ -9,7 +9,7 @@ const LpFormContact = () => {
     <>
       <form>
         <div className="grid grid-cols-1 gap-3">
-          <div class="mb-2">
+          <div className="mb-2">
             <Label htmlFor="name" className="font-bold">
               Full Name*
             </Label>
@@ -20,7 +20,7 @@ const LpFormContact = () => {
               className="bg-transparent border-b-[2px] border-b-black rounded-none placeholder:!pl-0"
             />
           </div>
-          <div class="mb-2">
+          <div className="mb-2">
             <Label htmlFor="email" className="font-bold">
               Email Address*
             </Label>
@@ -31,7 +31,7 @@ const LpFormContact = () => {
               className="bg-transparent border-b-[2px] border-b-black rounded-none placeholder:!pl-0"
             />
           </div>
-          <div class="mb-2">
+          <div className="mb-2">
             <Label htmlFor="Phone" className="font-bold">
               Phone*
             </Label>
@@ -42,7 +42,7 @@ const LpFormContact = () => {
               className="bg-transparent border-b-[2px] border-b-black rounded-none placeholder:!pl-0"
             />
           </div>
-          <div class="mb-2">
+          <div className="mb-2">
             <Label htmlFor="url" className="font-bold">
               Website*
             </Label>

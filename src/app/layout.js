@@ -1,3 +1,4 @@
+// 'use client'
 // Css
 import Script from "next/script"
 import { GoogleTagManager } from '@next/third-parties/google'
@@ -6,6 +7,9 @@ import "./globals.css"
 import { fontSans } from "./fonts"
 // Components
 import { Footer, Header } from "@/components"
+// import { usePathname } from "next/navigation"
+
+
 // Meta Data
 export const metadata = {
   metadataBase: new URL('https://www.clickfirstsmm.com'),
@@ -30,6 +34,8 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  // const pathname = usePathname()
+  // const hideHeaderFooter = ["/social-media-marketing", "/hidden-layout"].includes(pathname)
   return (
     <html lang="en">
 
@@ -57,11 +63,11 @@ export default function RootLayout({ children }) {
       </Script>
       <body className={`${fontSans.variable} antialiased font-sans font-normal`}>
 
-        <Header />
-        <main>
-          {children}
-        </main>
-        <Footer />
+        <Header /> <main> {children} </main> <Footer />
+
+        {/* {!hideHeaderFooter && <Header />}
+        <main>{children}</main>
+        {!hideHeaderFooter && <Footer />} */}
       </body>
     </html >
   )
