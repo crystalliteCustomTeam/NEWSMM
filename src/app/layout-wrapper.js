@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 export default function LayoutWrapper({ children }) {
   const pathname = usePathname();
 
-  const isLpLayout = ["/social-media-marketing", "/hidden-layout"].includes(pathname);
+  const isLpLayout = ["/social-media-advertising-agency", "/hidden-layout"].includes(pathname);
 
   return (
     <>
