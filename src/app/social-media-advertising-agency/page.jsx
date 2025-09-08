@@ -146,6 +146,8 @@ export default function Page() {
   ];
   return (
     <>
+      
+
       <section>
         <div className="relative z-10 bg-white py-[70px] xl:py-[150px]">
           <Image
@@ -182,7 +184,7 @@ export default function Page() {
                   />
                 </div>
                 {/*  */}
-                <div className="grid grid-cols-3 items-center divide-x divide-gray-300 mt-10">
+                <div className="grid md:grid-cols-3 grid-cols-2 items-center md:divide-x md:divide-gray-300 mt-10 gap-5 md:justify-start justify-center">
                   <div className="block px-5">
                     <div className="flex items-center gap-3 mb-1">
                       <Image
@@ -192,7 +194,7 @@ export default function Page() {
                         className="h-[40px]"
                         alt="Social Media Marketing"
                       />
-                      <h3 className="text-[42px] font-bold leading-tight">
+                      <h3 className="text-[42px]  font-bold leading-tight">
                         <CountUp end={1500} duration={2} />+
                       </h3>
                     </div>
@@ -317,7 +319,10 @@ export default function Page() {
                 Are your current efforts failing to bring in those ideal
                 customers?
               </h2>
-              <p className="leading-[30px] text-[23px] font-semibold text-black  mb-[2px] tracking-[-1px]"> Is your brand struggling to stand out online?</p>
+              <p className="leading-[30px] text-[23px] font-semibold text-black  mb-[2px] tracking-[-1px]">
+                {" "}
+                Is your brand struggling to stand out online?
+              </p>
 
               <div className="mt-5">
                 <Image
@@ -326,41 +331,37 @@ export default function Page() {
                 />
               </div>
               <div className="mt-14 flex flex-col gap-1 items-center">
-
-
-              <p className="leading-[30px] text-[23px] font-semibold text-black  mb-[2px] tracking-[-1px]">
-                If so, chances are your business profile is invisible, outdated,
-                or simply not engaging enough.
-              </p>
-              <p className="leading-[30px] text-[23px] font-semibold text-black  mb-[2px] tracking-[-1px]">
-                Here’s the truth:{" "}
-                <span className="font-bold text-[#f15d22] uppercase text-[25px]">
-                  social marketing advertising{" "}
-                </span>{" "}
-                can either put your brand in the spotlight or leave it in the
-                shadows.
-              </p>
-              <p className="leading-[30px] text-[23px] font-semibold text-black  mb-[2px] tracking-[-1px] text-center">
-                That’s where{" "}
-                <span className="font-bold text-[#f15d22] uppercase text-[25px]">
-                  our social media ads
-                </span>{" "}
-                step in. Our{" "}
-                <span className="font-bold text-[#f15d22] uppercase text-[25px]">
-                  social media advertising services
-                </span>{" "}
-                <br className="lg:block hidden" /> and{" "}
-                <span className="font-bold text-[#f15d22] uppercase text-[25px]">
-                  {" "}
-                  paid social media services
-                </span>{" "}
-                are designed to drive awareness, generate quality leads, and
-                maximize ROI. <br className="lg:block hidden" />
-                And with experienced social media managers for hire, we don’t
-                just grow your follower count — we grow your customer base.
-              </p>
-
-            
+                <p className="leading-[30px] md:text-[23px] text-[18px] font-semibold text-black  mb-[5px] tracking-[-1px] text-center">
+                  If so, chances are your business profile is invisible,
+                  outdated, or simply not engaging enough.
+                </p>
+                <p className="leading-[30px] md:text-[23px] text-[18px] font-semibold text-black  mb-[5px] tracking-[-1px] text-center">
+                  Here’s the truth:{" "}
+                  <span className="font-bold text-[#f15d22] uppercase text-[25px]">
+                    social marketing advertising{" "}
+                  </span>{" "}
+                  can either put your brand in the spotlight or leave it in the
+                  shadows.
+                </p>
+                <p className="leading-[30px] md:text-[23px] text-[18px] font-semibold text-black  mb-[5px] tracking-[-1px] text-center">
+                  That’s where{" "}
+                  <span className="font-bold text-[#f15d22] uppercase text-[25px]">
+                    our social media ads
+                  </span>{" "}
+                  step in. Our{" "}
+                  <span className="font-bold text-[#f15d22] uppercase text-[25px]">
+                    social media advertising services
+                  </span>{" "}
+                  <br className="lg:block hidden" /> and{" "}
+                  <span className="font-bold text-[#f15d22] uppercase text-[25px]">
+                    {" "}
+                    paid social media services
+                  </span>{" "}
+                  are designed to drive awareness, generate quality leads, and
+                  maximize ROI. <br className="lg:block hidden" />
+                  And with experienced social media managers for hire, we don’t
+                  just grow your follower count — we grow your customer base.
+                </p>
               </div>
               <div className="my-20">
                 <div className="flex justify-center items-center mb-[120px]">
@@ -369,9 +370,11 @@ export default function Page() {
                     Don’t Take Our Word For It{" "}
                     <br className="lg:block hidden" />
                     See What Our Clients Say About Our
-<br className="lg:block hidden" /><span className=" text-[#f15d22]">
-                    Social Media Advertising 
-                    </span> Agency
+                    <br className="lg:block hidden" />
+                    <span className=" text-[#f15d22]">
+                      Social Media Advertising
+                    </span>{" "}
+                    Agency
                   </h2>
                 </div>
                 <div className="relative w-full max-w-[1200px] mx-auto">
@@ -387,7 +390,9 @@ export default function Page() {
                     <MapPinIcon className="h-6 w-6 text-white" />
                     <div className="absolute left-6 top-1/2 -translate-y-1/2 hidden group-hover:block bg-white text-black text-sm p-3 rounded-lg shadow-lg w-64">
                       <p className="mb-1">
-                       “Click First SMM feels like an extension of our own team. The results with social media ads have been phenomenal.” 
+                        “Click First SMM feels like an extension of our own
+                        team. The results with social media ads have been
+                        phenomenal.”
                       </p>
                       <span className="font-semibold text-gray-700">
                         Bobby Reed
@@ -399,7 +404,8 @@ export default function Page() {
                     <MapPinIcon className="h-6 w-6 text-white" />
                     <div className="absolute left-6 top-1/2 -translate-y-1/2 hidden group-hover:block bg-white text-black text-sm p-3 rounded-lg shadow-lg w-64">
                       <p className="mb-1">
-                        “They completely transformed our campaigns. Responsive, transparent, and always ahead of the curve.” 
+                        “They completely transformed our campaigns. Responsive,
+                        transparent, and always ahead of the curve.”
                       </p>
                       <span className="font-semibold text-gray-700">
                         Aaron Thacker
@@ -411,7 +417,8 @@ export default function Page() {
                     <MapPinIcon className="h-6 w-6 text-white" />
                     <div className="absolute left-6 top-1/2 -translate-y-1/2 hidden group-hover:block bg-white text-black text-sm p-3 rounded-lg shadow-lg w-64">
                       <p className="mb-1">
-                       “We’ve had to pivot multiple times, and they adapted instantly. Truly flexible and client-focused.” 
+                        “We’ve had to pivot multiple times, and they adapted
+                        instantly. Truly flexible and client-focused.”
                       </p>
                       <span className="font-semibold text-gray-700">
                         Mary Elizabeth Lim
@@ -423,7 +430,9 @@ export default function Page() {
                     <MapPinIcon className="h-6 w-6 text-white" />
                     <div className="absolute left-6 top-1/2 -translate-y-1/2 hidden group-hover:block bg-white text-black text-sm p-3 rounded-lg shadow-lg w-64">
                       <p className="mb-1">
-                       “My biggest regret? Not working with this social media advertising agency sooner. Professional, knowledgeable, and genuinely invested in our success.”
+                        “My biggest regret? Not working with this social media
+                        advertising agency sooner. Professional, knowledgeable,
+                        and genuinely invested in our success.”
                       </p>
                       <span className="font-semibold text-gray-700">
                         Raquel Laban
@@ -435,7 +444,9 @@ export default function Page() {
                     <MapPinIcon className="h-6 w-6 text-white" />
                     <div className="absolute left-6 top-1/2 -translate-y-1/2 hidden group-hover:block bg-white text-black text-sm p-3 rounded-lg shadow-lg w-64">
                       <p className="mb-1">
-                       “Thanks to Click First SMM’s social media advertising services, our leads and conversions have skyrocketed. Highly recommend them.” 
+                        “Thanks to Click First SMM’s social media advertising
+                        services, our leads and conversions have skyrocketed.
+                        Highly recommend them.”
                       </p>
                       <span className="font-semibold text-gray-700">
                         Darcy Bailey
@@ -447,7 +458,8 @@ export default function Page() {
                     <MapPinIcon className="h-6 w-6 text-white" />
                     <div className="absolute left-6 top-1/2 -translate-y-1/2 hidden group-hover:block bg-white text-black text-sm p-3 rounded-lg shadow-lg w-64">
                       <p className="mb-1">
-                       “Creative, proactive, and results-driven — their work speaks for itself.” 
+                        “Creative, proactive, and results-driven — their work
+                        speaks for itself.”
                       </p>
                       <span className="font-semibold text-gray-700">
                         Tomas Condit
@@ -559,14 +571,18 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <Packages wrapperCss="pt-[50px] pb-[100px]"/>
+      <Packages wrapperCss="pt-[50px] pb-[100px]" />
       <section>
         <div className="lg:py-[100px] py-[50px] bg-[linear-gradient(180deg,_#351a4b,_#723389)]">
-          <div className="container">    
+          <div className="container">
             <h2 className="xl:text-[50px] md:text-[40px] text-[35px] text-center font-bold text-white tracking-[-1px] xl:leading-[55px] leading-tight mb-10">
               The Perfect Time To Lead Is Now. If You’re Already{" "}
               <br className="lg:block hidden" />
-             Great At What You Do, Let Us <span className="font-bold text-secondary">Be Great</span> At <br className="lg:block hidden" /> Making Sure <span className="font-bold text-secondary">The World Knows</span> It. 
+              Great At What You Do, Let Us{" "}
+              <span className="font-bold text-secondary">Be Great</span> At{" "}
+              <br className="lg:block hidden" /> Making Sure{" "}
+              <span className="font-bold text-secondary">The World Knows</span>{" "}
+              It.
             </h2>
             <div className="flex flex-col sm:flex-row items-center gap-5 justify-center mt-10">
               <CTA
@@ -592,19 +608,26 @@ export default function Page() {
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
               <div>
                 <h2 className="font-black text-[42px] tracking-[-2px] leading-[45px] text-[#262626] mb-[18px]">
-                  Why Partner With Click First SMM - Social Media Advertising Agency? Because We Deliver Results That Scale
+                  Why Partner With Click First SMM - Social Media Advertising
+                  Agency? Because We Deliver Results That Scale
                 </h2>
                 <p>
-                  In a world where almost every brand is online, it takes more than just posting to stand out. That’s where we shine. As a forward-thinking social media marketing agency, we create strategies that cut through the noise and connect directly with your audience.
+                  In a world where almost every brand is online, it takes more
+                  than just posting to stand out. That’s where we shine. As a
+                  forward-thinking social media marketing agency, we create
+                  strategies that cut through the noise and connect directly
+                  with your audience.
                 </p>
-                <p>We are not just another social media advertising agency; we are growth partners. Our campaigns are:</p>
+                <p>
+                  We are not just another social media advertising agency; we
+                  are growth partners. Our campaigns are:
+                </p>
                 <ul className="my-5 list-disc pl-4 space-y-1 font-semibold">
                   <li>Conversion-focused</li>
                   <li>ROI-driven</li>
                   <li>Creative and scalable</li>
                   <li>Backed by real-time data and insights</li>
                 </ul>
-                
               </div>
               <div className="grid grid-cols-3 gap-5 items-center justify-center mt-5">
                 <div className="flex flex-col gap-5">
@@ -653,7 +676,9 @@ export default function Page() {
             </div>
             <div className="flex flex-col gap-5 items-center my-10">
               <h3 className="text-[25px] lg:text-[40px] text-center font-black tracking-[-1px] lg:leading-[48px]  capitalize bg-[linear-gradient(to_right,_#76358d_30%,_#e31a6e_40%,_#f18f39)] bg-clip-text text-transparent">
-                From startups to enterprises, we’ve helped businesses of every size amplify their reach. With our proven methods, your brand will not just participate in the conversation — it will lead it.
+                From startups to enterprises, we’ve helped businesses of every
+                size amplify their reach. With our proven methods, your brand
+                will not just participate in the conversation — it will lead it.
               </h3>
             </div>
           </div>
@@ -669,7 +694,8 @@ export default function Page() {
                 That Deliver Real Growth
               </h2>
               <p className="lg:text-[20px] text-[16px] tracking-tight leading-tight text-[#262626] lg:w-[70%] w-[90%] text-center">
-                Looking to take your business to the next level? Our social media ads are built to convert
+                Looking to take your business to the next level? Our social
+                media ads are built to convert
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4 my-10">
@@ -720,7 +746,7 @@ export default function Page() {
                 <h3 className="font-black text-[35px] lg:text-[42px] tracking-[-2px] lg:leading-[50px] leading-tight text-[#262626] mb-[18px]">
                   Get your free{" "}
                   <span className="text-[#351a4b]">30 minute</span> strategy
-                  session with a Senior Digital Marketer {" "}
+                  session with a Senior Digital Marketer{" "}
                   <span className="text-[#351a4b]">(Worth $300)</span>
                 </h3>
                 <CTA
