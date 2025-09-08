@@ -13,12 +13,15 @@ export default function Packages({ wrapperCss = "py-[100px]" }) {
         <section>
             <div className={`${wrapperCss}`}>
                 <div className="container">
-                    <h2 className=" mx-auto text-[35px] sm:text-[35px] md:text-[34px] lg:text-[50px] xl:text-[60px] leading-[1.2em] font-black tracking-[-2px] text-center mb-[50px] text-black">
-                        SMM Packages That Meet <br className="lg:block hidden"/>
-Your Budgets and Goals!
+                    <h2 className=" mx-auto text-[35px] sm:text-[35px] md:text-[34px] lg:text-[50px] xl:text-[60px] leading-[1.2em] font-black tracking-[-2px] text-center mb-[20px] text-black">
+                        Social Media Advertising Services That Fit <br className="lg:block hidden"/>Your Business Goals & Budget 
+
                     </h2>
+                    <p className="text-[16px] text-center lg:w-[70%] w-full px-3 leading-normal mx-auto">
+                        At Click First SMM, we don’t believe in one-size-fits-all. Our social media advertising services packages are tailored to meet your needs, whether you’re a startup, a growing brand, or an established business looking to scale.
+                    </p>
                     <Tabs defaultValue="Annually">
-                        <TabsList className="flex mb-[50px] gap-5 snap-x overflow-x-auto justify-start sm:justify-center pb-4 px-5">
+                        <TabsList className="flex my-[50px] gap-5 snap-x overflow-x-auto justify-start sm:justify-center pb-4 px-5">
                             {
                                 data && data.map(({ type }, i) => (
                                     <TabsTrigger className="data-[state=active]:bg-[linear-gradient(180deg,_#351a4b,_#723389)] data-[state=active]:text-white h-[50px] px-10 text-[16px] sm:text-[20px] inline-flex font-semibold text-black rounded-md transition-all duration-300 bg-[#F5F5F5] items-center snap-center shrink-0" key={i} value={type}>
