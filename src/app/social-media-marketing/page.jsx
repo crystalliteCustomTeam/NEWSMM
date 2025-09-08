@@ -7,6 +7,7 @@ import {
   CustomizeBanner,
   FAQs,
   FrontEndForm,
+  HeaderLp,
   Industries,
   LpFormContact,
   Packages,
@@ -33,6 +34,9 @@ import IMG4 from "media/smmlp/facebook.png";
 import IMG5 from "media/smmlp/twitter.png";
 import question from "media/smmlp/questions.png";
 import bg11 from "media/smmlp/1920resizing.avif";
+import Icon1 from "media/smmlp/counte1.png";
+import Icon2 from "media/smmlp/counte2.png";
+import Icon3 from "media/smmlp/counte3.png";
 // import { Facebook, Youtube, Instagram, Twitter } from "lucide-react";
 // Components
 import { CTA } from "@/components";
@@ -43,6 +47,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { useState } from "react";
+import CountUp from "react-countup";
 
 export default function Page() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -174,6 +179,65 @@ export default function Page() {
                     text="Click To See Our Affordable Packages"
                   />
                 </div>
+                {/*  */}
+               <div className="grid grid-cols-3 items-center divide-x divide-gray-300 mt-10">
+  <div className="block px-5">
+    <div className="flex items-center gap-3 mb-1">
+      <Image
+        src={Icon1}
+        width={40}
+        height={40}
+        className="h-[40px]"
+        alt="Social Media Marketing"
+      />
+      <h3 className="text-[42px] font-bold leading-tight">
+        <CountUp end={1499} duration={2} />+
+      </h3>
+    </div>
+    <p className="text-[10px] font-semibold uppercase leading-3">
+      Clients working with us globally
+    </p>
+  </div>
+
+  <div className="block px-5">
+    <div className="flex items-center gap-3 mb-1">
+      <Image
+        src={Icon2}
+        width={30}
+        height={50}
+        className="h-[40px]"
+        alt="Social Media Marketing"
+      />
+      <h3 className="text-[42px] font-bold leading-tight">
+        <CountUp end={1.2} decimals={1} suffix="MIL+" duration={2} />
+      </h3>
+    </div>
+    <p className="text-[10px] font-semibold uppercase leading-3">
+      Qualified leads delivered
+    </p>
+  </div>
+
+  <div className="block px-5">
+    <div className="flex items-center gap-3 mb-1">
+      <Image
+        src={Icon3}
+        width={40}
+        height={40}
+        className="h-[40px]"
+        alt="Social Media Marketing"
+      />
+      <h3 className="text-[42px] font-bold leading-tight">
+        <CountUp end={93} duration={2} />%
+      </h3>
+    </div>
+    <p className="text-[10px] font-semibold uppercase leading-3">
+      Client Retention rate
+    </p>
+  </div>
+</div>
+
+
+                {/*  */}
               </div>
               <div>
                 <div className="bg-white rounded-none shadow-2xl lg:p-10 p-5 2xl:w-[70%] lg:w-[90%] mx-auto">
@@ -547,13 +611,13 @@ export default function Page() {
               </div>
               <div className="grid grid-cols-3 gap-5 items-center justify-center mt-5">
                 <div className="flex flex-col gap-5">
-                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
+                  <div className="border-[#723389] border-[2px] transition-all duration-500 hover:bg-[#723389] group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
                     <CheckBadgeIcon className="w-10 group-hover:text-white" />
                     <h2 className="font-semibold group-hover:text-white text-center lg:text-[16px] text-[12px]">
                       Conversion Driven
                     </h2>
                   </div>
-                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
+                  <div className="border-[#723389] border-[2px] transition-all duration-500 hover:bg-[#723389] group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
                     <CircleStackIcon className="w-10 group-hover:text-white" />
                     <h2 className="font-semibold group-hover:text-white text-center lg:text-[16px] text-[12px]">
                       Data-driven
@@ -561,13 +625,13 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="flex flex-col gap-5 md:-mt-32 -mt-16">
-                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
+                  <div className="border-[#723389] border-[2px] transition-all duration-500 hover:bg-[#723389] group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
                     <CurrencyDollarIcon className="w-10 group-hover:text-white" />
                     <h2 className="font-semibold group-hover:text-white text-center lg:text-[16px] text-[12px]">
                       Affordable
                     </h2>
                   </div>
-                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
+                  <div className="border-[#723389] border-[2px] transition-all duration-500 hover:bg-[#723389] group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
                     <AdjustmentsVerticalIcon className="w-10 group-hover:text-white" />
                     <h2 className="font-semibold group-hover:text-white text-center lg:text-[16px] text-[12px]">
                       Scalable
@@ -575,13 +639,13 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="flex flex-col gap-5">
-                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
+                  <div className="border-[#723389] border-[2px] transition-all duration-500 hover:bg-[#723389] group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
                     <FunnelIcon className="w-10 group-hover:text-white" />
                     <h2 className="font-semibold group-hover:text-white text-center lg:text-[16px] text-[12px]">
                       ROI-focused
                     </h2>
                   </div>
-                  <div className="border-primary border-[2px] transition-all duration-500 hover:bg-primary group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
+                  <div className="border-[#723389] border-[2px] transition-all duration-500 hover:bg-[#723389] group border-solid shadow-2xl flex flex-col items-center justify-center md:py-[50px] py-[30px] gap-5">
                     <GiftIcon className="w-10 group-hover:text-white" />
                     <h2 className="font-semibold group-hover:text-white text-center lg:text-[16px] text-[12px]">
                       Outcome Guaranteed
@@ -600,12 +664,13 @@ export default function Page() {
           </div>
         </div>
       </section>
-            <section>
+      <section>
         <div className="pt-[50px]">
           <div className="container">
             <div className="flex flex-col gap-3 items-center">
               <h2 className="font-black text-[35px] lg:text-[42px] tracking-[-1px] lg:leading-[45px] leading-tight text-[#262626] lg:mb-[18px] mb-3 text-center">
-                Social Media Advertising Services <br className="lg:block hidden"/>
+                Social Media Advertising Services{" "}
+                <br className="lg:block hidden" />
                 That Grows Your Business
               </h2>
               <p className="lg:text-[20px] text-[16px] tracking-tight leading-tight text-[#262626] lg:w-[70%] w-[90%] text-center">
@@ -646,9 +711,9 @@ export default function Page() {
           </div>
         </div>
       </section>
-            <section>
+      <section>
         <div className="py-[50px] relative">
-            <Image
+          <Image
             src={bg11}
             alt="Click First SMM"
             priority
@@ -660,9 +725,10 @@ export default function Page() {
             <div className="grid md:grid-cols-2 grid-cols-1 gap-5 items-center">
               <div>
                 <h3 className="font-black text-[35px] lg:text-[42px] tracking-[-2px] lg:leading-[50px] leading-tight text-[#262626] mb-[18px]">
-                  Get your free <span className="text-[#351a4b]">30 minute</span>{" "}
-                  strategy session with an experienced digital marketer valued
-                  at <span className="text-[#351a4b]">$300USD.</span>
+                  Get your free{" "}
+                  <span className="text-[#351a4b]">30 minute</span> strategy
+                  session with an experienced digital marketer valued at{" "}
+                  <span className="text-[#351a4b]">$300USD.</span>
                 </h3>
                 <CTA
                   css="hover:bg-black hover:text-white"
@@ -671,13 +737,13 @@ export default function Page() {
                   text="Get Free 30 Minutes Strategy Session"
                 />
               </div>
-              <div >
+              <div>
                 <div className="group relative  bg-white rounded-lg shadow-2xl p-10 lg:w-[70%] w-[90%] mx-auto">
-                    <h3 className="text-black mb-5 text-[35px] font-bold text-center capitalize">
+                  <h3 className="text-black mb-5 text-[35px] font-bold text-center capitalize">
                     Don’t be shy, say hi!
                   </h3>
                   {/* <FrontEndForm label={false} button="Increase My Sales" /> */}
-                  <LpFormContact/>
+                  <LpFormContact />
                 </div>
               </div>
             </div>
@@ -721,8 +787,6 @@ export default function Page() {
                 </div>
               ))}
             </div>
-
-            
           </div>
         </div>
       </section>
