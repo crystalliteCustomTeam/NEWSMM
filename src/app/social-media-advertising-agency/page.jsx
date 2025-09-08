@@ -149,14 +149,14 @@ export default function Page() {
       
 
       <section>
-        <div className="relative z-10 bg-white py-[70px] xl:py-[150px]">
+        <div className="relative z-10 bg-white py-[100px] xl:py-[150px]">
           <Image
             src={bg11}
             alt="Click First SMM"
             priority
             fill
             sizes="100vw"
-            className="w-full -z-10"
+            className="w-full -z-10 md:block hidden"
           />
           <div className="container relative z-10">
             <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-5">
@@ -184,7 +184,7 @@ export default function Page() {
                   />
                 </div>
                 {/*  */}
-                <div className="grid md:grid-cols-3 grid-cols-2 items-center md:divide-x md:divide-gray-300 mt-10 gap-5 md:justify-start justify-center">
+                <div className="md:grid md:grid-cols-3 hidden items-center md:divide-x md:divide-gray-300 mt-10 gap-5 md:justify-start justify-center ">
                   <div className="block px-5">
                     <div className="flex items-center gap-3 mb-1">
                       <Image
