@@ -771,7 +771,7 @@ export default function Page() {
         </div>
       </section>
       <section>
-        <div className="py-[100px]">
+        <div className="pt-[80px]">
           <div className="container">
             <div className="grid grid-cols-1 gap-x-5 gap-y-10 items-center">
               <div className="w-full text-center">
