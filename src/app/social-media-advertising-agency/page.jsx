@@ -608,7 +608,7 @@ export default function Page() {
           <div className="container">
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
               <div>
-                <h2 className="font-black text-[42px] tracking-[-2px] leading-[45px] text-[#262626] mb-[18px]">
+                <h2 className="font-black text-[42px] tracking-[-1px] leading-[45px] text-[#262626] mb-[18px]">
                   Why Partner With Click First SMM - Social Media Advertising
                   Agency? Because We Deliver Results That Scale
                 </h2>
