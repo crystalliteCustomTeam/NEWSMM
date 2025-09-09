@@ -471,7 +471,7 @@ export default function Page() {
                     <MapPinIcon className="h-6 w-6 text-white" />
                     <div className="absolute left-6 top-1/2 -translate-y-1/2 hidden group-hover:block bg-white text-black text-sm p-3 rounded-lg shadow-lg w-64">
                       <p className="mb-1">
-                        Working with the team at Jump to 1 has been amazing!
+                        Working with the team at Click First SMM has been amazing!
                         Daniel is visibly passionate about his customers
                         succeeding with SEO, design ...
                       </p>
@@ -485,7 +485,7 @@ export default function Page() {
                     <MapPinIcon className="h-6 w-6 text-white" />
                     <div className="absolute left-6 top-1/2 -translate-y-1/2 hidden group-hover:block bg-white text-black text-sm p-3 rounded-lg shadow-lg w-64">
                       <p className="mb-1">
-                        We contracted with Jump to 1 to increase our online
+                        We contracted with Click First SMM to increase our online
                         exposure. Daniel redesigned our website and did a highly
                         professional job.
                       </p>
