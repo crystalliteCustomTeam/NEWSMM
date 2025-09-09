@@ -572,6 +572,7 @@ export default function Page() {
         </div>
       </section>
       <Packages wrapperCss="pt-[50px] pb-[100px]" />
+      <Creations />
       <section>
         <div className="lg:py-[100px] py-[50px] bg-[linear-gradient(180deg,_#351a4b,_#723389)]">
           <div className="container">
