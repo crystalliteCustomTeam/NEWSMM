@@ -29,7 +29,7 @@ const formSchema = z.object({
       required_error: "phone is required",
       invalid_type_error: "phone must be a string",
     })
-    .min(7, {
+    .min(11, {
       message: "phone must be at least 7 characters.",
     })
     .max(14, {
